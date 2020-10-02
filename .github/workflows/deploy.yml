@@ -1,0 +1,53 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to AWS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          role-external-id: ${{ secrets.AWS_ROLE_EXTERNAL_ID }}
+          role-duration-seconds: 1200
+          role-session-name: github-actions-session
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Set CDK Application Stage
+        id: stage
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo ::set-output name=stage::"prod"
+          else
+            echo ::set-output name=stage::"pr-${{ github.event.number }}"
+          fi
+      - name: Bootstrap the CDK environment
+        run: npx cdk bootstrap
+
+      - name: Diff?
+        run: npx cdk diff --context stage=${{ steps.stage.outputs.stage }} --context aws-cdk:enableDiffNoFail=true
+
+      - name: Deploy!
+        run: npx cdk deploy --require-approval never --context stage=${{ steps.stage.outputs.stage }}
