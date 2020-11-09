@@ -10,19 +10,20 @@
     "start": "npx projen start -i",
     "projen": "node .projenrc.js",
     "no-changes": "(git log --oneline -1 | grep -q \"chore(release):\") && echo \"No changes to release.\"",
-    "bump": "yarn --silent no-changes || standard-version",
-    "release": "yarn --silent no-changes || (yarn bump && git push --follow-tags origin master)",
-    "projen:upgrade": "yarn upgrade -L projen && CI=\"\" yarn projen",
-    "compile": "true",
-    "build": "yarn test && yarn compile && yarn synth",
-    "test": "rm -fr lib/ && jest --passWithNoTests --updateSnapshot && yarn eslint",
+    "bump": "yarn run --silent no-changes || standard-version",
+    "release": "yarn run --silent no-changes || (yarn run bump && git push --follow-tags origin master)",
+    "test": "rm -fr lib/ && jest --passWithNoTests --updateSnapshot && yarn run eslint",
     "test:watch": "jest --watch",
     "test:update": "jest --updateSnapshot",
-    "eslint": "eslint --ext .ts --fix src test",
+    "projen:upgrade": "yarn upgrade -L projen && CI=\"\" yarn projen",
+    "compile": "true",
+    "build": "yarn run test && yarn run compile && yarn run synth",
+    "eslint": "eslint --ext .ts,.tsx --fix --no-error-on-unmatched-pattern src test",
     "cdk": "cdk",
     "synth": "cdk synth",
     "deploy": "cdk deploy",
-    "diff": "cdk diff"
+    "diff": "cdk diff",
+    "destroy": "cdk destroy"
   },
   "author": {
     "name": "Niko Virtala",
@@ -34,14 +35,14 @@
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "aws-cdk": "^1.68.0",
+    "aws-cdk": "^1.72.0",
     "eslint": "^6.8.0",
     "eslint-import-resolver-node": "^0.3.3",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.2",
     "jest": "^26.4.2",
     "json-schema": "^0.2.5",
-    "projen": "^0.3.83",
+    "projen": "^0.3.161",
     "standard-version": "^9.0.0",
     "ts-jest": "^26.1.0",
     "ts-node": "^9.0.0",
@@ -49,10 +50,10 @@
   },
   "peerDependencies": {},
   "dependencies": {
-    "@aws-cdk-containers/ecs-service-extensions": "^1.68.0",
-    "@aws-cdk/assert": "^1.68.0",
-    "@aws-cdk/aws-ecs": "^1.68.0",
-    "@aws-cdk/core": "^1.68.0",
+    "@aws-cdk-containers/ecs-service-extensions": "^1.72.0",
+    "@aws-cdk/assert": "^1.72.0",
+    "@aws-cdk/aws-ecs": "^1.72.0",
+    "@aws-cdk/core": "^1.72.0",
     "prettier": "^2.1.2"
   },
   "bundledDependencies": [],
@@ -60,54 +61,72 @@
   "license": "MIT",
   "start": {
     "start": {
+      "command": "yarn run start",
       "desc": "Shows this menu"
     },
     "projen": {
       "desc": "Synthesize project configuration from .projenrc.js",
+      "command": "yarn run projen",
       "category": 3
     },
     "bump": {
       "desc": "Commits a bump to the package version based on conventional commits",
+      "command": "yarn run bump",
       "category": 2
     },
     "release": {
       "desc": "Bumps version & push to master",
+      "command": "yarn run release",
       "category": 2
-    },
-    "projen:upgrade": {
-      "desc": "upgrades projen to the latest version",
-      "category": 3
-    },
-    "compile": {
-      "desc": "Only compile",
-      "category": 0
-    },
-    "watch": {
-      "desc": "Watch & compile in the background",
-      "category": 0
-    },
-    "build": {
-      "desc": "Full release build (test+compile)",
-      "category": 0
     },
     "test": {
       "desc": "Run tests",
+      "command": "yarn run test",
       "category": 1
     },
     "test:watch": {
       "desc": "Run jest in watch mode",
+      "command": "yarn run test:watch",
       "category": 1
+    },
+    "projen:upgrade": {
+      "desc": "upgrades projen to the latest version",
+      "command": "yarn run projen:upgrade",
+      "category": 3
+    },
+    "compile": {
+      "desc": "Only compile",
+      "command": "yarn run compile",
+      "category": 0
+    },
+    "watch": {
+      "desc": "Watch & compile in the background",
+      "command": "yarn run watch",
+      "category": 0
+    },
+    "build": {
+      "desc": "Full release build (test+compile)",
+      "command": "yarn run build",
+      "category": 0
     },
     "eslint": {
       "desc": "Runs eslint against the codebase",
+      "command": "yarn run eslint",
       "category": 1
     },
     "synth": {
       "desc": "Synthesizes your cdk app into cdk.out (part of \"yarn build\")",
+      "command": "yarn run synth",
       "category": 0
     },
     "deploy": {
       "desc": "Deploys your cdk app to the AWS cloud",
+      "command": "yarn run deploy",
+      "category": 2
+    },
+    "destroy": {
+      "desc": "Destroys your cdk app in the AWS cloud",
+      "command": "yarn run destroy",
       "category": 2
     }
   },
@@ -115,20 +134,21 @@
   "jest": {
     "clearMocks": true,
     "collectCoverage": true,
+    "coverageDirectory": "coverage",
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ],
     "testPathIgnorePatterns": [
       "/node_modules/"
     ],
-    "preset": "ts-jest",
     "testMatch": [
       "**/__tests__/**/*.ts?(x)",
       "**/?(*.)+(spec|test).ts?(x)"
     ],
+    "preset": "ts-jest",
     "globals": {
       "ts-jest": {
-        "tsConfig": "tsconfig.jest.json"
+        "tsconfig": "tsconfig.jest.json"
       }
     }
   }
