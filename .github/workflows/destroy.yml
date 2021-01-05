@@ -42,4 +42,4 @@ jobs:
             echo ::set-output name=stage::"pr-${{ github.event.number }}"
           fi
       - name: Destroy.
-        run: npx cdk destroy --require-approval never --context stage=${{ steps.stage.outputs.stage }}
+        run: npx cdk destroy --context stage=${{ steps.stage.outputs.stage }} --force
