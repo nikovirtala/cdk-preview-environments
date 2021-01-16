@@ -43,21 +43,15 @@ jspm_packages/
 !/.projenrc.js
 !version.json
 !/.versionrc.json
-# jest-junit artifacts
-/test-reports/
-junit.xml
-/coverage
 !/.github/workflows/build.yml
 !/.mergify.yml
 !/.github/dependabot.yml
-!/.github/pull_request_template.md
 !/.github/workflows/rebuild-bot.yml
 !/test
 !/tsconfig.json
 /lib
 !/src
 /dist
-!/tsconfig.jest.json
 !/.eslintrc.json
 cdk.out/
 .cdk.staging/

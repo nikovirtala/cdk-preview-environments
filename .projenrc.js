@@ -1,16 +1,21 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.82.0',
+  cdkVersion: '1.85.0',
   name: 'cdk-preview-environments',
   repository: 'https://github.com/nikovirtala/cdk-preview-environments.git',
   license: 'MIT',
+  licenced: true,
   authorName: 'Niko Virtala',
   authorEmail: 'niko.virtala@hey.com',
-  dependencies: {
-    prettier: '^2.1.2',
-  },
+  devDeps: ['prettier'],
   cdkDependencies: ['@aws-cdk/aws-ecs', '@aws-cdk-containers/ecs-service-extensions'],
+  buildWorkflow: true,
+  codeCov: false,
+  jest: false,
+  mergify: true,
+  pullRequestTemplate: false,
+  rebuildBot: true,
 });
 
 project.synth();
