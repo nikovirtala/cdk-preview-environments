@@ -9,6 +9,7 @@ on:
 
 jobs:
   deploy:
+    if: github.actor!= 'dependabot[bot]' # do not deploy, if pull-request is opened by dependabot.
     name: Deploy to AWS
     runs-on: ubuntu-latest
 
