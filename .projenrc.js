@@ -10,6 +10,9 @@ const project = new AwsCdkTypeScriptApp({
   authorEmail: 'niko.virtala@hey.com',
   devDeps: ['prettier'],
   cdkDependencies: ['@aws-cdk/aws-ecs', '@aws-cdk-containers/ecs-service-extensions'],
+  context: {
+    '@aws-cdk/core:newStyleStackSynthesis': 'true',
+  },
   buildWorkflow: true,
   codeCov: false,
   jest: false,
