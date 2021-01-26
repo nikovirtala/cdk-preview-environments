@@ -31,7 +31,7 @@
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "aws-cdk": "^1.85.0",
+    "aws-cdk": "^1.86.0",
     "eslint": "^7.18.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.3.0",
@@ -44,10 +44,10 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@aws-cdk-containers/ecs-service-extensions": "^1.85.0",
-    "@aws-cdk/assert": "^1.85.0",
-    "@aws-cdk/aws-ecs": "^1.85.0",
-    "@aws-cdk/core": "^1.85.0"
+    "@aws-cdk-containers/ecs-service-extensions": "^1.86.0",
+    "@aws-cdk/assert": "^1.86.0",
+    "@aws-cdk/aws-ecs": "^1.86.0",
+    "@aws-cdk/core": "^1.86.0"
   },
   "bundledDependencies": [],
   "license": "MIT",
