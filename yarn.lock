@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aws-cdk-containers/ecs-service-extensions@^1.85.0":
+"@aws-cdk-containers/ecs-service-extensions@^1.86.0":
   version "1.86.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk-containers/ecs-service-extensions/-/ecs-service-extensions-1.86.0.tgz#37668bb1054b0eb43816bc976cb65054b7c7c846"
   integrity sha512-M0hwFUn2gj8fwZdmyKkevNAkepE33lUbDOKhiH35+K1C/Ej6POZnnPiMboPjwQejv8sWNXjXEtpU1dty9pfLqQ==
@@ -30,7 +30,7 @@
     "@aws-cdk/region-info" "1.86.0"
     constructs "^3.2.0"
 
-"@aws-cdk/assert@^1.85.0":
+"@aws-cdk/assert@^1.86.0":
   version "1.86.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.86.0.tgz#3faf5cc911d76d50a50a4779c724c1041fb1e866"
   integrity sha512-2XXhM8hXQQKB5luFiMae2mtWns1529piawBo9gBa6R79Lwbi2F0qodS7BFaDbyOUD8wNwUX6XDgi8sznIPRtew==
@@ -337,7 +337,7 @@
     "@aws-cdk/core" "1.86.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-ecs@1.86.0", "@aws-cdk/aws-ecs@^1.85.0":
+"@aws-cdk/aws-ecs@1.86.0", "@aws-cdk/aws-ecs@^1.86.0":
   version "1.86.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-ecs/-/aws-ecs-1.86.0.tgz#fab98658dedef6578b3038a9a6235f3000b08b09"
   integrity sha512-VL1dgkrosM83Cb6WyvgFcRI6hO/eR3f5RBzu06DBSD9Qy7Ds2/9tHXidcEgMwLn18Yq0XAhFVRxp7x4U82fU2w==
@@ -720,7 +720,7 @@
     string-width "^4.2.0"
     table "^6.0.7"
 
-"@aws-cdk/core@1.86.0", "@aws-cdk/core@^1.85.0":
+"@aws-cdk/core@1.86.0", "@aws-cdk/core@^1.86.0":
   version "1.86.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.86.0.tgz#b510fd60d30cfae68fd28593cf102de5f63c6f78"
   integrity sha512-3wdvXta/XU2nKVxpr3rFJ0gKAVfiLuNp7nrarh/nyC+sS2ZtOLNOuHG8Zg0Adpzzb4YWqXknz60KLhSDVAAMsQ==
@@ -1190,7 +1190,7 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk@^1.85.0:
+aws-cdk@^1.86.0:
   version "1.86.0"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-1.86.0.tgz#f9772378be2f2609c65302b80c36dc1d67dec570"
   integrity sha512-aAi3AlAeKy1ja0vrscEasPP2347/J9ghA0IlzNsIkN/Tv24lpqYA5Z8CLRXX/c4vHvO5QV42h3HZdP+tEnKv7A==
