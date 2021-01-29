@@ -31,14 +31,14 @@
     constructs "^3.2.0"
 
 "@aws-cdk/assert@^1.86.0":
-  version "1.87.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.87.0.tgz#9a81b32e503c98caca3eeec654e91d22bd7442d6"
-  integrity sha512-jT/hzAqnC9w9Sug4ejzWGHsdcWUX+9+9ww0X2GPL0XOyMqr7Z/yuHf+ewJ1dFAd95HinLIJ0YoVENdSjTH2QlA==
+  version "1.87.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.87.1.tgz#947f56c438e1f125e770c947d828372ee7ccb601"
+  integrity sha512-X1Cv1LBdkdHQXtgrw8rRSW2PuAmODq1mKUtnGVgyNf0hGGhHvU/N0Y//SG6Rw6iMxA4orj7IKQXUTiGchsqiSQ==
   dependencies:
-    "@aws-cdk/cloud-assembly-schema" "1.87.0"
-    "@aws-cdk/cloudformation-diff" "1.87.0"
-    "@aws-cdk/core" "1.87.0"
-    "@aws-cdk/cx-api" "1.87.0"
+    "@aws-cdk/cloud-assembly-schema" "1.87.1"
+    "@aws-cdk/cloudformation-diff" "1.87.1"
+    "@aws-cdk/core" "1.87.1"
+    "@aws-cdk/cx-api" "1.87.1"
     constructs "^3.2.0"
 
 "@aws-cdk/assets@1.87.1":
@@ -698,6 +698,13 @@
   dependencies:
     md5 "^2.3.0"
 
+"@aws-cdk/cfnspec@1.87.1":
+  version "1.87.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-1.87.1.tgz#86b26be37e00dde11187ae4ce7f8131f3906e018"
+  integrity sha512-7bD49ah8+2TT1/Jl/DF5YcSqXMn6qL6JMs+edmC2nx6drkXdmtKIT4K4uk7m81bljSreIgyuk1OoXASXoJ9VWw==
+  dependencies:
+    md5 "^2.3.0"
+
 "@aws-cdk/cloud-assembly-schema@1.87.0":
   version "1.87.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.87.0.tgz#c7fb111d72956463841fc15c47287a06d28b90a7"
@@ -726,19 +733,17 @@
     string-width "^4.2.0"
     table "^6.0.7"
 
-"@aws-cdk/core@1.87.0":
-  version "1.87.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.87.0.tgz#8182c597b8ac2184ba57dfeb9298cdb82e977012"
-  integrity sha512-G7oEGKSahwWjgMBLrCYD3uelDVfQuoHw84AcgtTHdugM9ncTAso+UZNGH2HzoSVLcGqzRKh+epXtBVjPb+b4aQ==
+"@aws-cdk/cloudformation-diff@1.87.1":
+  version "1.87.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloudformation-diff/-/cloudformation-diff-1.87.1.tgz#7078048e06672b56c97150d47989e0ce3dc485bc"
+  integrity sha512-qWuitGav73o4HX3ZaiE3jwG+x8FOJxZsYIZc7y0mXurDQQ/8TY/c10eemTyIGXRAfSNRcUJIfIkLrt051fV1zQ==
   dependencies:
-    "@aws-cdk/cloud-assembly-schema" "1.87.0"
-    "@aws-cdk/cx-api" "1.87.0"
-    "@aws-cdk/region-info" "1.87.0"
-    "@balena/dockerignore" "^1.0.2"
-    constructs "^3.2.0"
-    fs-extra "^9.1.0"
-    ignore "^5.1.8"
-    minimatch "^3.0.4"
+    "@aws-cdk/cfnspec" "1.87.1"
+    colors "^1.4.0"
+    diff "^5.0.0"
+    fast-deep-equal "^3.1.3"
+    string-width "^4.2.0"
+    table "^6.0.7"
 
 "@aws-cdk/core@1.87.1", "@aws-cdk/core@^1.86.0":
   version "1.87.1"
