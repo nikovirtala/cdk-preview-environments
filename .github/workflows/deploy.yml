@@ -1,8 +1,10 @@
 name: Deploy
 on:
-  push:
-    branches:
-      - main
+  # To re-enable "prod" deploy, uncomment following lines.
+  #
+  # push:
+  #   branches:
+  #     - main
   pull_request:
     branches:
       - main
