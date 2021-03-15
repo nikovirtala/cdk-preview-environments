@@ -6,8 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
-    if: github.actor!= 'dependabot[bot]' # do not destroy, if pull-request is opened by dependabot.
+  destroy:
     name: Destroy Preview Environment
     runs-on: ubuntu-latest
 
@@ -32,7 +31,7 @@ jobs:
           role-session-name: github-actions-session
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn --frozen-lockfile
 
       - name: Set CDK Application Stage
         id: stage
@@ -44,3 +43,11 @@ jobs:
           fi
       - name: Destroy.
         run: npx cdk destroy --context stage=${{ steps.stage.outputs.stage }} --force
+
+      - name: De-activate GitHub Deployment
+        uses: bobheadxi/deployments@v0.5.2
+        if: always()
+        with:
+          step: deactivate-env
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ steps.stage.outputs.stage }}

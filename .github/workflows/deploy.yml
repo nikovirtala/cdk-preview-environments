@@ -36,7 +36,7 @@ jobs:
           role-session-name: github-actions-session
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn --frozen-lockfile
 
       - name: Set CDK Application Stage
         id: stage
@@ -46,11 +46,37 @@ jobs:
           else
             echo ::set-output name=stage::"pr-${{ github.event.number }}"
           fi
+
+      - name: Create GitHub Deployment
+        uses: bobheadxi/deployments@v0.5.2
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ steps.stage.outputs.stage }}
+          ref: ${{ github.head_ref }}
+
       - name: Bootstrap the CDK environment
         run: npx cdk bootstrap
 
       - name: Diff?
-        run: npx cdk diff --context stage=${{ steps.stage.outputs.stage }} --context aws-cdk:enableDiffNoFail=true
+        run: npx cdk diff --context stage=${{ steps.stage.outputs.stage }}
 
       - name: Deploy!
-        run: npx cdk deploy --require-approval never --context stage=${{ steps.stage.outputs.stage }}
+        id: deploy
+        run: | 
+          npx cdk deploy \
+            --require-approval never \
+            --outputs-file outputs.json \
+            --context stage=${{ steps.stage.outputs.stage }}
+           echo ::set-output name=env_url::"http://$(jq -r '.[] | select(.serviceloadbalancerdnsoutput).serviceloadbalancerdnsoutput' outputs.json)"
+
+      - name: Update GitHub Deployment Status
+        uses: bobheadxi/deployments@v0.5.2
+        if: always()
+        with:
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: ${{ steps.deploy.outputs.env_url }}
