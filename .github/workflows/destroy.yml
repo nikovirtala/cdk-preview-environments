@@ -44,10 +44,8 @@ jobs:
       - name: Destroy.
         run: npx cdk destroy --context stage=${{ steps.stage.outputs.stage }} --force
 
-      - name: De-activate GitHub Deployment
-        uses: bobheadxi/deployments@v0.5.2
-        if: always()
+      - name: Delete GitHub Deployments and Environment
+        uses: strumwolf/delete-deployment-environment@v1.1.0
         with:
-          step: deactivate-env
           token: ${{ secrets.GITHUB_TOKEN }}
-          env: ${{ steps.stage.outputs.stage }}
+          environment: ${{ steps.stage.outputs.stage }}
