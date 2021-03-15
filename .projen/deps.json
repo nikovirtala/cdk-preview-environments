@@ -7,17 +7,15 @@
     },
     {
       "name": "@typescript-eslint/eslint-plugin",
-      "version": "^4.3.0",
       "type": "build"
     },
     {
       "name": "@typescript-eslint/parser",
-      "version": "^4.3.0",
       "type": "build"
     },
     {
       "name": "aws-cdk",
-      "version": "^1.86.0",
+      "version": "^1.93.0",
       "type": "build"
     },
     {
@@ -46,12 +44,12 @@
     },
     {
       "name": "projen",
-      "version": "^0.15.11",
+      "version": "^0.17.2",
       "type": "build"
     },
     {
       "name": "standard-version",
-      "version": "^9.0.0",
+      "version": "^9",
       "type": "build"
     },
     {
@@ -60,27 +58,26 @@
     },
     {
       "name": "typescript",
-      "version": "^3.9.5",
       "type": "build"
     },
     {
       "name": "@aws-cdk-containers/ecs-service-extensions",
-      "version": "^1.86.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.86.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs",
-      "version": "^1.86.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.86.0",
+      "version": "^1.93.0",
       "type": "runtime"
     }
   ],
