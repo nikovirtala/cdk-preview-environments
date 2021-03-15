@@ -43,3 +43,11 @@ jobs:
           fi
       - name: Destroy.
         run: npx cdk destroy --context stage=${{ steps.stage.outputs.stage }} --force
+
+      - name: De-activate GitHub Deployment
+        uses: bobheadxi/deployments@v0.5.2
+        if: always()
+        with:
+          step: deactivate-env
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ steps.stage.outputs.stage }}
