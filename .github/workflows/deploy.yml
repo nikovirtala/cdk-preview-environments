@@ -69,7 +69,7 @@ jobs:
             --require-approval never \
             --outputs-file outputs.json \
             --context stage=${{ steps.stage.outputs.stage }}
-           echo ::set-output name=env_url::"$(jq -r '.[] | select(.nameloadbalancerdnsoutput).nameloadbalancerdnsoutput' outputs.json)"
+           echo ::set-output name=env_url::"http://$(jq -r '.[] | select(.nameloadbalancerdnsoutput).nameloadbalancerdnsoutput' outputs.json)"
 
       - name: Update GitHub Deployment Status
         uses: bobheadxi/deployments@v0.5.2
