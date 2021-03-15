@@ -36,7 +36,7 @@ jobs:
           role-session-name: github-actions-session
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn --frozen-lockfile
 
       - name: Set CDK Application Stage
         id: stage
@@ -50,7 +50,7 @@ jobs:
         run: npx cdk bootstrap
 
       - name: Diff?
-        run: npx cdk diff --context stage=${{ steps.stage.outputs.stage }} --context aws-cdk:enableDiffNoFail=true
+        run: npx cdk diff --context stage=${{ steps.stage.outputs.stage }}
 
       - name: Deploy!
         run: npx cdk deploy --require-approval never --context stage=${{ steps.stage.outputs.stage }}
