@@ -26,7 +26,7 @@ export class MyStack extends Stack {
     );
     serviceDescription.add(new HttpLoadBalancerExtension());
 
-    new Service(this, 'honk', {
+    new Service(this, 'service', {
       environment: environment,
       serviceDescription: serviceDescription,
     });
