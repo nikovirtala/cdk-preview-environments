@@ -15,23 +15,20 @@ export class MyStack extends Stack {
     // define resources here...
     const environment = new Environment(this, stage);
 
-    const nameDescription = new ServiceDescription();
-    nameDescription.add(
+    const serviceDescription = new ServiceDescription();
+    serviceDescription.add(
       new Container({
         cpu: 256,
         memoryMiB: 512,
-        trafficPort: 80,
-        image: ContainerImage.fromRegistry('nathanpeck/name'),
-        environment: {
-          PORT: '80',
-        },
+        trafficPort: 8080,
+        image: ContainerImage.fromRegistry('nikovirtala/honk'),
       }),
     );
-    nameDescription.add(new HttpLoadBalancerExtension());
+    serviceDescription.add(new HttpLoadBalancerExtension());
 
-    new Service(this, 'name', {
+    new Service(this, 'honk', {
       environment: environment,
-      serviceDescription: nameDescription,
+      serviceDescription: serviceDescription,
     });
   }
 }
