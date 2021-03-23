@@ -1,4 +1,4 @@
-name: Lint
+name: 
 on:
   pull_request:
     branches:
@@ -31,9 +31,9 @@ jobs:
           fi
 
       - name: Synth
-        run: npx cdk synth --context stage=${{ steps.stage.outputs.stage }} --outputs-file outputs.json
+        run: npx cdk synth --context stage=${{ steps.stage.outputs.stage }}
 
       - name: Lint
-        uses: scottbrenner/cfn-lint-action@1.6.1
+        uses: scottbrenner/cfn-lint-action:1.6.1
         with:
-          args: "outputs.json"
+          args: "cdk.out/**template.json"
