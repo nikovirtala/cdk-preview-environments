@@ -34,6 +34,6 @@ jobs:
         run: npx cdk synth --context stage=${{ steps.stage.outputs.stage }}
 
       - name: Lint
-        uses: scottbrenner/cfn-lint-action@1.6.1
+        uses: docker://ghcr.io/scottbrenner/cfn-lint-action:master
         with:
           args: "cdk.out/**template.json"
