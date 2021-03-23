@@ -36,4 +36,4 @@ jobs:
       - name: Lint
         uses: docker://ghcr.io/scottbrenner/cfn-lint-action:master
         with:
-          args: "cdk.out/**template.json"
+          args: "-t cdk.out/**template.json -i E3002,E3003,W3005"
