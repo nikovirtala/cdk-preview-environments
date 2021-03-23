@@ -1,0 +1,39 @@
+name: Lint
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    name: Run cfn-lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Configure Node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Set CDK Application Stage
+        id: stage
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo ::set-output name=stage::"prod"
+          else
+            echo ::set-output name=stage::"pr-${{ github.event.number }}"
+          fi
+
+      - name: Synth
+        run: npx cdk synth --context stage=${{ steps.stage.outputs.stage }} --outputs-file outputs.json
+
+      - name: Lint
+        uses: scottbrenner/cfn-lint-action:1.6.1
+        with:
+          args: "outputs.json"
