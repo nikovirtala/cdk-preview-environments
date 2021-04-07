@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aws-cdk-containers/ecs-service-extensions@^1.93.0":
+"@aws-cdk-containers/ecs-service-extensions@^1.97.0":
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk-containers/ecs-service-extensions/-/ecs-service-extensions-1.97.0.tgz#d7f6d1b0a7d55484670cb63bf16c3ae5fd6df82c"
   integrity sha512-7N99BpVCxUMGptgJqisARDZOiZ30WC5iGve4uufXZmjWU1bopql6zY85D9DMY6dEJWUlUrFlMkmSkQZ0xaOK9Q==
@@ -30,7 +30,7 @@
     "@aws-cdk/region-info" "1.97.0"
     constructs "^3.3.69"
 
-"@aws-cdk/assert@^1.93.0":
+"@aws-cdk/assert@^1.97.0":
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.97.0.tgz#bd12459c72dd6088624c3a602e0180f6e85f2896"
   integrity sha512-LW1rvvaqUJoWIB4E6PU6bFtpZhbY4PcAwzgdNGLsFFFdn/c9809A6Aqd5XPpRcvsJC7ZMUg30hcDLzkJIJDx1g==
@@ -337,7 +337,7 @@
     "@aws-cdk/core" "1.97.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-ecs@1.97.0", "@aws-cdk/aws-ecs@^1.93.0":
+"@aws-cdk/aws-ecs@1.97.0", "@aws-cdk/aws-ecs@^1.97.0":
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-ecs/-/aws-ecs-1.97.0.tgz#ee09242cf1191b26ae02c36a34ad2e8d4d6e36d8"
   integrity sha512-iqe6KUXXgT5We9FJ6hIhQ5QGS0vDHFGcobZ0O1fkQZJWfilK/KhlbrFl23xw2lclKDezhVoxyw9MJYsZsyxXqQ==
@@ -753,7 +753,11 @@
     string-width "^4.2.2"
     table "^6.0.9"
 
+<<<<<<< HEAD
 "@aws-cdk/core@1.97.0", "@aws-cdk/core@^1.93.0":
+=======
+"@aws-cdk/core@1.97.0", "@aws-cdk/core@^1.97.0":
+>>>>>>> c752332 (chore: upgrade cdk and projen.)
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.97.0.tgz#421702aad95b925c63af2f1210835a87a330db00"
   integrity sha512-P8kdcWyQlmexy7FIA8KkRtUcBnSbBSg36vzsqCkRJySWgii4XKlRugyr6T8eRK6T74ZGu+OvSBD4izeDAO0SQQ==
@@ -1186,7 +1190,11 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
+<<<<<<< HEAD
 aws-cdk@^1.93.0:
+=======
+aws-cdk@^1.97.0:
+>>>>>>> c752332 (chore: upgrade cdk and projen.)
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-1.97.0.tgz#6b7adaeeca25aa8f27b7cb025db8a7a908125358"
   integrity sha512-BwFlJvGm7wJW/hveljygqFCsf6wZ23ljN9DZQSr8aBrWYzMXeVgCitDb3Mz7Zb0O0qPNZQAkP5SJBKCjFhedeA==
@@ -2543,6 +2551,11 @@ ini@^1.3.2:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
+ini@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-2.0.0.tgz#e5fd556ecdd5726be978fa1001862eacb0a94bc5"
+  integrity sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==
+
 inquirer@^7.3.3:
   version "7.3.3"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-7.3.3.tgz#04d176b2af04afc157a83fd7c100e98ee0aad003"
@@ -3471,16 +3484,17 @@ progress@^2.0.0:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.17.16:
-  version "0.17.16"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.17.16.tgz#40d109f74bf82280ee1dbc836635d199d80e2fd6"
-  integrity sha512-WPTvT7uK3mBrHt5CemkS791/3++OzyIcaTB2vPUt/6KViULkjpRIYYNknTXBp7hGJHKPn6NJ05/eRNATjiaiiw==
+projen@^0.17.30:
+  version "0.17.30"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.17.30.tgz#3f69d2fa6b09a14c536062c646116caf6f7e4f9f"
+  integrity sha512-NyQtS6zIvkPOB7OuRIvYafS3XBmgu7GNDuLAivMG0OIoo0OGlCFC8MuWIJd1sejOHjlZUPz4izA00vYu/x7I6Q==
   dependencies:
     "@iarna/toml" "^2.2.5"
     chalk "^4.1.0"
     decamelize "^4.0.0"
     fs-extra "^9.0.1"
     glob "^7"
+    ini "^2.0.0"
     inquirer "^7.3.3"
     semver "^7.3.2"
     xmlbuilder2 "^2.4.0"
