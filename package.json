@@ -5,8 +5,6 @@
     "url": "https://github.com/nikovirtala/cdk-preview-environments.git"
   },
   "scripts": {
-    "projen": "npx projen",
-    "start": "npx projen start",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
     "test:compile": "npx projen test:compile",
@@ -15,12 +13,13 @@
     "bump": "npx projen bump",
     "release": "npx projen release",
     "projen:upgrade": "npx projen projen:upgrade",
-    "watch": "npx projen watch",
     "eslint": "npx projen eslint",
     "synth": "npx projen synth",
     "deploy": "npx projen deploy",
     "destroy": "npx projen destroy",
-    "diff": "npx projen diff"
+    "diff": "npx projen diff",
+    "projen": "npx projen",
+    "start": "npx projen start"
   },
   "author": {
     "name": "Niko Virtala",
@@ -31,23 +30,23 @@
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "aws-cdk": "^1.93.0",
+    "aws-cdk": "^1.97.0",
     "eslint": "^7.18.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
     "json-schema": "^0.3.0",
     "prettier": "^2.2.1",
-    "projen": "^0.17.16",
+    "projen": "^0.17.30",
     "standard-version": "^9",
     "ts-node": "^9.1.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@aws-cdk-containers/ecs-service-extensions": "^1.93.0",
-    "@aws-cdk/assert": "^1.93.0",
-    "@aws-cdk/aws-ecs": "^1.93.0",
-    "@aws-cdk/core": "^1.93.0"
+    "@aws-cdk-containers/ecs-service-extensions": "^1.97.0",
+    "@aws-cdk/assert": "^1.97.0",
+    "@aws-cdk/aws-ecs": "^1.97.0",
+    "@aws-cdk/core": "^1.97.0"
   },
   "bundledDependencies": [],
   "license": "MIT",

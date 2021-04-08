@@ -15,7 +15,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.93.0",
+      "version": "^1.97.0",
       "type": "build"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "name": "projen",
-      "version": "^0.17.16",
+      "version": "^0.17.30",
       "type": "build"
     },
     {
@@ -62,22 +62,22 @@
     },
     {
       "name": "@aws-cdk-containers/ecs-service-extensions",
-      "version": "^1.93.0",
+      "version": "^1.97.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.93.0",
+      "version": "^1.97.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs",
-      "version": "^1.93.0",
+      "version": "^1.97.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.93.0",
+      "version": "^1.97.0",
       "type": "runtime"
     }
   ],
