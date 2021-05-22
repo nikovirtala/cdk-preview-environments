@@ -19,7 +19,7 @@ const project = new AwsCdkTypeScriptApp({
   jest: false,
   mergify: true,
   pullRequestTemplate: false,
-  rebuildBot: true,
+  rebuildBot: false,
   defaultReleaseBranch: 'main',
 });
 

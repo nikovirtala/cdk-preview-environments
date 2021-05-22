@@ -39,12 +39,22 @@
       "type": "build"
     },
     {
+      "name": "npm-check-updates",
+      "version": "^11",
+      "type": "build"
+    },
+    {
+      "name": "npm-check-updates",
+      "version": "^11",
+      "type": "build"
+    },
+    {
       "name": "prettier",
       "type": "build"
     },
     {
       "name": "projen",
-      "version": "^0.17.30",
+      "version": "^0.18.5",
       "type": "build"
     },
     {
