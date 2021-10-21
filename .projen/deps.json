@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@types/node",
-      "version": "^10.17.0",
+      "version": "^14.17.0",
       "type": "build"
     },
     {
@@ -15,11 +15,15 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.97.0",
+      "version": "^1.128.0",
       "type": "build"
     },
     {
       "name": "eslint",
+      "type": "build"
+    },
+    {
+      "name": "eslint-config-prettier",
       "type": "build"
     },
     {
@@ -35,12 +39,11 @@
       "type": "build"
     },
     {
-      "name": "json-schema",
+      "name": "eslint-plugin-prettier",
       "type": "build"
     },
     {
-      "name": "npm-check-updates",
-      "version": "^11",
+      "name": "json-schema",
       "type": "build"
     },
     {
@@ -54,16 +57,11 @@
     },
     {
       "name": "projen",
-      "version": "^0.18.5",
-      "type": "build"
-    },
-    {
-      "name": "standard-version",
-      "version": "^9",
       "type": "build"
     },
     {
       "name": "ts-node",
+      "version": "^9",
       "type": "build"
     },
     {
@@ -72,22 +70,22 @@
     },
     {
       "name": "@aws-cdk-containers/ecs-service-extensions",
-      "version": "^1.97.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.97.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs",
-      "version": "^1.97.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.97.0",
+      "version": "^1.128.0",
       "type": "runtime"
     }
   ],

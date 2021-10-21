@@ -2,7 +2,6 @@
   "tasks": {
     "clobber": {
       "name": "clobber",
-      "category": "30.maintain",
       "description": "hard resets to HEAD of origin and cleans the local repo",
       "env": {
         "BRANCH": "$(git branch --show-current)"
@@ -33,51 +32,14 @@
       ],
       "condition": "git diff --exit-code > /dev/null"
     },
-    "bump": {
-      "name": "bump",
-      "category": "20.release",
-      "description": "Bumps version based on latest git tag and generates a changelog entry",
-      "steps": [
-        {
-          "exec": "git -c \"versionsort.suffix=-\" tag --sort=\"-version:refname\" --list \"v*\" | head -n1 > .version.tmp.json"
-        },
-        {
-          "exec": "if [ \"$(cat .version.tmp.json)\" = \"\" ]; then echo \"v0.1.0\" > .version.tmp.json; fi"
-        },
-        {
-          "exec": "standard-version"
-        }
-      ],
-      "condition": "! git log --oneline -1 | grep -q \"chore(release):\""
-    },
-    "unbump": {
-      "name": "unbump",
-      "category": "20.release",
-      "description": "Restores version to 0.0.0",
-      "steps": [
-        {
-          "exec": "standard-version -r 0.0.0"
-        }
-      ]
-    },
     "compile": {
       "name": "compile",
-      "category": "00.build",
       "description": "Only compile"
-    },
-    "test:compile": {
-      "name": "test:compile",
-      "category": "10.test",
-      "description": "compiles the test code"
     },
     "test": {
       "name": "test",
-      "category": "10.test",
       "description": "Run tests",
       "steps": [
-        {
-          "spawn": "test:compile"
-        },
         {
           "spawn": "eslint"
         }
@@ -85,7 +47,6 @@
     },
     "build": {
       "name": "build",
-      "category": "00.build",
       "description": "Full release build (test+compile)",
       "steps": [
         {
@@ -102,40 +63,6 @@
         }
       ]
     },
-    "upgrade-dependencies": {
-      "name": "upgrade-dependencies",
-      "env": {
-        "CI": "0"
-      },
-      "steps": [
-        {
-          "exec": "npm-check-updates --upgrade --target=minor --reject='projen'"
-        },
-        {
-          "exec": "yarn install --check-files"
-        },
-        {
-          "exec": "npx projen"
-        }
-      ]
-    },
-    "upgrade-projen": {
-      "name": "upgrade-projen",
-      "env": {
-        "CI": "0"
-      },
-      "steps": [
-        {
-          "exec": "npm-check-updates --upgrade --target=minor --filter='projen'"
-        },
-        {
-          "exec": "yarn install --check-files"
-        },
-        {
-          "exec": "npx projen"
-        }
-      ]
-    },
     "default": {
       "name": "default",
       "steps": [
@@ -146,17 +73,15 @@
     },
     "watch": {
       "name": "watch",
-      "category": "00.build",
       "description": "Watch & compile in the background",
       "steps": [
         {
-          "exec": "tsc -w"
+          "exec": "tsc --build -w"
         }
       ]
     },
     "eslint": {
       "name": "eslint",
-      "category": "10.test",
       "description": "Runs eslint against the codebase",
       "steps": [
         {
@@ -166,7 +91,6 @@
     },
     "synth": {
       "name": "synth",
-      "category": "00.build",
       "description": "Synthesizes your cdk app into cdk.out (part of \"yarn build\")",
       "steps": [
         {
@@ -176,7 +100,6 @@
     },
     "deploy": {
       "name": "deploy",
-      "category": "20.release",
       "description": "Deploys your CDK app to the AWS cloud",
       "steps": [
         {
@@ -186,7 +109,6 @@
     },
     "destroy": {
       "name": "destroy",
-      "category": "20.release",
       "description": "Destroys your cdk app in the AWS cloud",
       "steps": [
         {
@@ -196,11 +118,43 @@
     },
     "diff": {
       "name": "diff",
-      "category": "99.misc",
       "description": "Diffs the currently deployed app against your code",
       "steps": [
         {
           "exec": "cdk diff"
+        }
+      ]
+    },
+    "upgrade": {
+      "name": "upgrade",
+      "description": "upgrade dependencies",
+      "env": {
+        "CI": "0"
+      },
+      "steps": [
+        {
+          "exec": "npm-check-updates --dep dev --upgrade --target=minor"
+        },
+        {
+          "exec": "npm-check-updates --dep optional --upgrade --target=minor"
+        },
+        {
+          "exec": "npm-check-updates --dep peer --upgrade --target=minor"
+        },
+        {
+          "exec": "npm-check-updates --dep prod --upgrade --target=minor"
+        },
+        {
+          "exec": "npm-check-updates --dep bundle --upgrade --target=minor"
+        },
+        {
+          "exec": "yarn install --check-files"
+        },
+        {
+          "exec": "yarn upgrade"
+        },
+        {
+          "exec": "npx projen"
         }
       ]
     }
