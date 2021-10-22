@@ -11,7 +11,10 @@ on:
 
 jobs:
   deploy:
-    if: github.actor!= 'dependabot[bot]' # do not deploy, if pull-request is opened by dependabot.
+    if: |
+      github.actor != 'dependabot[bot]' ||
+      github.actor != 'github-actions[bot]' ||
+      github.actor != 'mergify[bot]'
     name: Deploy to AWS
     runs-on: ubuntu-latest
 
@@ -64,7 +67,7 @@ jobs:
 
       - name: Deploy!
         id: deploy
-        run: | 
+        run: |
           npx cdk deploy \
             --require-approval never \
             --outputs-file outputs.json \
