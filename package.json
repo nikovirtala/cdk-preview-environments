@@ -5,16 +5,16 @@
     "url": "https://github.com/nikovirtala/cdk-preview-environments.git"
   },
   "scripts": {
+    "build": "npx projen build",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
-    "test": "npx projen test",
-    "build": "npx projen build",
     "default": "npx projen default",
-    "eslint": "npx projen eslint",
-    "synth": "npx projen synth",
     "deploy": "npx projen deploy",
     "destroy": "npx projen destroy",
     "diff": "npx projen diff",
+    "eslint": "npx projen eslint",
+    "synth": "npx projen synth",
+    "test": "npx projen test",
     "upgrade": "npx projen upgrade",
     "projen": "npx projen"
   },
@@ -37,7 +37,7 @@
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.32.4",
+    "projen": "^0.32.6",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
