@@ -1266,9 +1266,9 @@ array.prototype.flat@^1.2.5:
     es-abstract "^1.19.0"
 
 asn1@~0.2.3:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
-  integrity sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.6.tgz#0d3a7bb6e64e02a90c0303b31f292868ea09a08d"
+  integrity sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==
   dependencies:
     safer-buffer "~2.1.0"
 
@@ -1335,9 +1335,9 @@ aws-cdk@^1.128.0:
     yargs "^16.2.0"
 
 aws-sdk@^2.848.0, aws-sdk@^2.979.0:
-  version "2.1021.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1021.0.tgz#00b9251f9d9c36adf6c47f0d5fb4aeb47ef2148e"
-  integrity sha512-UT8YOh6Qb0vo27vSzXQQvl5ACAk2PGbPm6Qq7pLeGfGiqYlCY2ru77finzp8Jj8J4ilfK05AlJ1F8mZ1ZjqF9Q==
+  version "2.1022.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1022.0.tgz#b8c83e7bae0cbf5d937316aaf10719d1db72546b"
+  integrity sha512-JIXk8xhBztPKe4hrBHaJ9zyjWrHUhuQhRex18BSJERwryifgMcxLjb/LFJrcYWP0d49g/WrV/GpYkpc23MBV/Q==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -3166,11 +3166,6 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
-
 lodash.defaults@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
@@ -3862,10 +3857,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.32.6:
-  version "0.32.6"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.32.6.tgz#93662e9aa358abf0ecba79822925a8f471e41317"
-  integrity sha512-SwD30ix/5sl7jDtr/q15z6GImU8799SFiSI6ptQFDq2OLhSRqCAf5CXz+RIfdgyY3opC4hRlO1tddL1nFj9fEA==
+projen@^0.32.7:
+  version "0.32.7"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.32.7.tgz#9b0c5f121eaefd026d46072ea1ab004a758ea215"
+  integrity sha512-4Bw58yJtZL7muI/FciGY1tY+q9r25G+XBnhzlZYssMfB3emsO+kZO5GnlCE/s1IR8qx0nPqTqkChbIsy6rELPA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -4465,12 +4460,11 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 table@^6.0.9, table@^6.7.2:
-  version "6.7.2"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.7.2.tgz#a8d39b9f5966693ca8b0feba270a78722cbaf3b0"
-  integrity sha512-UFZK67uvyNivLeQbVtkiUs8Uuuxv24aSL4/Vil2PJVtMgU8Lx0CYkP12uCGa3kjyQzOSgV1+z9Wkb82fCGsO0g==
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.7.3.tgz#255388439715a738391bd2ee4cbca89a4d05a9b7"
+  integrity sha512-5DkIxeA7XERBqMwJq0aHZOdMadBx4e6eDoFRuyT5VR82J0Ycg2DwM6GfA/EQAhJ+toRTaS1lIdSQCqgrmhPnlw==
   dependencies:
     ajv "^8.0.1"
-    lodash.clonedeep "^4.5.0"
     lodash.truncate "^4.4.2"
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
