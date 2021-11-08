@@ -13,6 +13,9 @@
     "destroy": "npx projen destroy",
     "diff": "npx projen diff",
     "eslint": "npx projen eslint",
+    "package": "npx projen package",
+    "post-compile": "npx projen post-compile",
+    "pre-compile": "npx projen pre-compile",
     "synth": "npx projen synth",
     "test": "npx projen test",
     "upgrade": "npx projen upgrade",
@@ -37,7 +40,7 @@
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.32.10",
+    "projen": "^0.33.1",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
