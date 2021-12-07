@@ -1,7 +1,7 @@
-const { AwsCdkTypeScriptApp } = require('projen');
+const { awscdk } = require('projen');
 
-const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.128.0',
+const project = new awscdk.AwsCdkTypeScriptApp({
+  cdkVersion: '1.134.0',
   name: 'cdk-preview-environments',
   repository: 'https://github.com/nikovirtala/cdk-preview-environments.git',
   license: 'MIT',
