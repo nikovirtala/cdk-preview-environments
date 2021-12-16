@@ -42,6 +42,7 @@ jspm_packages/
 /lib
 /dist/
 !/.eslintrc.json
+/assets/
 !/cdk.json
 /cdk.out/
 .cdk.staging/
