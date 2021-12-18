@@ -17,25 +17,24 @@ jobs:
       github.actor != 'mergify[bot]'
     name: Deploy to AWS
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: Configure Node.js
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-          role-external-id: ${{ secrets.AWS_ROLE_EXTERNAL_ID }}
-          role-duration-seconds: 1200
           role-session-name: github-actions-session
 
       - name: Install Dependencies
@@ -51,11 +50,11 @@ jobs:
           fi
 
       - name: Create GitHub Deployment
-        uses: bobheadxi/deployments@v0.5.2
+        uses: bobheadxi/deployments@v0.6.1
         id: deployment
         with:
           step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AUTOMATION_TOKEN }}
           env: ${{ steps.stage.outputs.stage }}
           ref: ${{ github.head_ref }}
 
@@ -75,11 +74,11 @@ jobs:
            echo ::set-output name=env_url::"http://$(jq -r '.[] | select(.serviceloadbalancerdnsoutput).serviceloadbalancerdnsoutput' outputs.json)"
 
       - name: Update GitHub Deployment Status
-        uses: bobheadxi/deployments@v0.5.2
+        uses: bobheadxi/deployments@v0.6.1
         if: always()
         with:
           step: finish
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AUTOMATION_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
           env_url: ${{ steps.deploy.outputs.env_url }}
