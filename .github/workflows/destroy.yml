@@ -15,19 +15,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Configure Node.js
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-          role-external-id: ${{ secrets.AWS_ROLE_EXTERNAL_ID }}
-          role-duration-seconds: 1200
           role-session-name: github-actions-session
 
       - name: Install Dependencies
@@ -45,7 +41,7 @@ jobs:
         run: npx cdk destroy --context stage=${{ steps.stage.outputs.stage }} --force
 
       - name: Delete GitHub Deployments and Environment
-        uses: strumwolf/delete-deployment-environment@v1.1.0
+        uses: strumwolf/delete-deployment-environment@v2.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           environment: ${{ steps.stage.outputs.stage }}
