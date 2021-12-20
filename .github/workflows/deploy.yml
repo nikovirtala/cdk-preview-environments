@@ -18,8 +18,9 @@ jobs:
     name: Deploy to AWS
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
       contents: read
+      deployments: write
+      id-token: write
 
     steps:
       - name: Checkout
@@ -54,7 +55,7 @@ jobs:
         id: deployment
         with:
           step: start
-          token: ${{ secrets.AUTOMATION_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           env: ${{ steps.stage.outputs.stage }}
           ref: ${{ github.head_ref }}
 
@@ -78,7 +79,7 @@ jobs:
         if: always()
         with:
           step: finish
-          token: ${{ secrets.AUTOMATION_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
           env_url: ${{ steps.deploy.outputs.env_url }}
