@@ -9,6 +9,9 @@ jobs:
   destroy:
     name: Destroy Preview Environment
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Checkout
