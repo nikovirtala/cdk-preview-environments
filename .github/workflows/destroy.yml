@@ -9,6 +9,9 @@ jobs:
   destroy:
     name: Destroy Preview Environment
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Checkout
@@ -43,5 +46,5 @@ jobs:
       - name: Delete GitHub Deployments and Environment
         uses: strumwolf/delete-deployment-environment@v2.0.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AUTOMATION_TOKEN }}
           environment: ${{ steps.stage.outputs.stage }}
