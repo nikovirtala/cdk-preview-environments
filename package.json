@@ -16,6 +16,7 @@
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
+    "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
     "synth": "npx projen synth",
     "synth:silent": "npx projen synth:silent",
@@ -46,7 +47,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.50.19",
+    "projen": "^0.50.24",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
