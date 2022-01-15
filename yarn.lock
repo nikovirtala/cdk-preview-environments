@@ -1323,9 +1323,9 @@ aws-cdk@^1.136.0:
     yargs "^16.2.0"
 
 aws-sdk@^2.848.0, aws-sdk@^2.979.0:
-  version "2.1057.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1057.0.tgz#010d01a57f4f98f445842a200221d803db4c9cc9"
-  integrity sha512-vRplJBXff0+KBJLx7PJQSz2mr6TOZZl+tPD9kNx0XIKUsdMxesm8FVL6VtAI7NG1XQ7UMGcPu6Mal3+j+mrveQ==
+  version "2.1058.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1058.0.tgz#77755516c6f678b98a1f29bd939f0d7ae42da90c"
+  integrity sha512-q6bTq1DBBeBaU6GKKoTHmJj16WOQHhOoK7jwV93IT8pO0P1XH99gesFofhew3eT0h8Ev7quVKutk4B1kfnIXPQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1652,9 +1652,9 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.2.27, constructs@^3.3.69:
-  version "3.3.188"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.188.tgz#69da61c5ba2c570ab8b85026a74ff96717b34d9d"
-  integrity sha512-pwp9ernak8Ejxsms6q8QrqFVbXp3n/Fw6oFvW/htGjN+y/oXSTbAqwGk5+oEouLrSzXDax8IMdNDZf1GJ7oZfg==
+  version "3.3.189"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.189.tgz#8c19e03f5d32285dc6cc2462f08664422b7099ed"
+  integrity sha512-X9SHTWuGyRrqtJ/0SBl2AZTIvx/LJmp8KBQ7L8hgspzxpxwAB1SknwDY+pAPkiSxhSxZIQbOmtIqLJ931y3IKw==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2313,9 +2313,9 @@ fast-diff@^1.1.2:
   integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
 fast-glob@^3.2.9:
-  version "3.2.10"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.10.tgz#2734f83baa7f43b7fd41e13bc34438f4ffe284ee"
-  integrity sha512-s9nFhFnvR63wls6/kM88kQqDhMu0AfdjqouE2l5GVQPbqLgyFjjU5ry/r2yKsJxpb9Py1EYNqieFrmMaX4v++A==
+  version "3.2.11"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
+  integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -3865,10 +3865,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.50.30:
-  version "0.50.30"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.50.30.tgz#d88ac5d7b87356313a6444a7a328143b2ac7e6e4"
-  integrity sha512-Zy3iF0StO0QicU7Ya0f3mIYTTodLW9kRIo4spYDOO6+a4whXbhTr91QnObo24NycXR7ZapMG7duC1zm6y3TORg==
+projen@^0.50.31:
+  version "0.50.31"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.50.31.tgz#9d1ecacdbaf8f68b59aba0ceb013f4b9b67d00bf"
+  integrity sha512-+v9AuMFVjoeMB57k0Tu/LneD/OUkTQoFED1SOyPkIXPLKI9C8/Cnk9IoTd6u9RBrum0ULhsty3xb+NkWKWMbVw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
