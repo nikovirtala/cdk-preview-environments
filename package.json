@@ -37,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "aws-cdk": "^1.136.0",
-    "esbuild": "^0.14.11",
+    "esbuild": "^0.14.12",
     "eslint": "^8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.6",
@@ -47,7 +47,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.51.6",
+    "projen": "^0.51.9",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
