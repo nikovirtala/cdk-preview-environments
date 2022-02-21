@@ -1663,9 +1663,9 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.2.27, constructs@^3.3.69:
-  version "3.3.222"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.222.tgz#9be9eb5c245d2c0c1cdd7b08f32000701c389861"
-  integrity sha512-RibAgTW5Kn5pxKMplctk2scAmAHSAZ3ksiYp+P04Tqbs+Xo/UXbDrqXhakYzJOfTutBfh2NhXzcK8imhAt+c7g==
+  version "3.3.223"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.223.tgz#5efb14b7ae04b39131ada06a802a40d3d8aa75a4"
+  integrity sha512-WCCR/my4MohLT/OQWioU+0fOzXnMZMD5PHsxT4tnB3iKluGVJynDFCuQ7uNAfLs3rwSx09BIeJHc5B7ZUTVbbQ==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -3557,9 +3557,9 @@ npm-bundled@^1.1.1:
     npm-normalize-package-bin "^1.0.1"
 
 npm-check-updates@^12:
-  version "12.3.1"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.3.1.tgz#48339da0331e9c857b94be04b33dfe7f5ec34fbd"
-  integrity sha512-rvXyiUnc9zw3WXakqv0LsdFDc1V4T8DHG8AdWEjJiqfOZdBI4q8ekTt/BFqLQAtcXo5Pu6WGqjA9oDnFi4UV3g==
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.4.0.tgz#67e8e1b88551167368ec246dfd4302ce3007d83d"
+  integrity sha512-X14H74M8SVFkStmP1NDOMh0OjLB3mU2dwUeM71zyITJHkm08MASwwTcydW6YuGcNW1RUlVq1cQY2yWijv4zKUQ==
   dependencies:
     chalk "^4.1.2"
     cint "^8.2.1"
@@ -3934,10 +3934,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.52.37:
-  version "0.52.37"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.37.tgz#cc47fd92c8e7d3bcf5c6783ed266f040adbb3981"
-  integrity sha512-WLlRYMyEFqgzghsSXkL6xFLL/ya0iyfXkV3K/TRIPwn0W8Q/O7Lyx2CjDZ1GYvGYizR57x0JE/c95FWJODDP+w==
+projen@^0.52.39:
+  version "0.52.39"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.39.tgz#5aa32528ce4f176b3e6beecabc3143820fe3efa6"
+  integrity sha512-nKnjklD6vib83ccefTlVipTY+Yz2VtlkwxGIK/0pim94eJ/l7Knv0lULVpb9r+mImvzxPxwr+AdQWvEmB8OD1Q==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
