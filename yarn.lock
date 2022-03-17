@@ -986,9 +986,9 @@
   integrity sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==
 
 "@types/json-schema@^7.0.9":
-  version "7.0.9"
-  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
-  integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
+  version "7.0.10"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.10.tgz#9b05b7896166cd00e9cbd59864853abf65d9ac23"
+  integrity sha512-BLO9bBq59vW3fxCpD4o0N4U+DXsvwvIcl+jofw0frQo/GrBFC+/jRZj1E7kgp6dvTyNmA4y6JCV5Id/r3mNP5A==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -1462,9 +1462,9 @@ console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.2.27, constructs@^3.3.69:
-  version "3.3.244"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.244.tgz#5f12b625f1fd6dd95cfdd5b04554839ff7156786"
-  integrity sha512-pHJZv4eKh+LvXLdyFrzHVQB3bI4mmDeZFlt00DCMuL7HkTh9gU6QZ/lkrODUdM0RILDzN1haK3gjVKsx0dDcRQ==
+  version "3.3.245"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.245.tgz#222e0e6edf03a185f9b4d6a2f8ba9d9396d8ebaf"
+  integrity sha512-szEJFq0zoPKkriWXj06hrc7UsxPq3yAGPkAOC1t9uitTshkILz0GedciCGwj8ELyrmrZP1qYf7FloPlFDPwLfA==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -3294,10 +3294,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
-  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
+prettier@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.0.tgz#12f8f504c4d8ddb76475f441337542fa799207d4"
+  integrity sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==
 
 proc-log@^2.0.0:
   version "2.0.0"
@@ -3309,10 +3309,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.52.73:
-  version "0.52.73"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.73.tgz#6f9c44f25e882eda26a0ff5ef02876577bf3ddbe"
-  integrity sha512-n13iOBVb+FjV7KvLmysX9wCdq4xyEqSyeh1TE0G/n0YVYUNpqRRXuKd4eot5owm4pcAuKgMWRn0TfA3J4n0Xjg==
+projen@^0.52.75:
+  version "0.52.75"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.75.tgz#9b6b440e22aa7b84c7d78df5b7bc395afa4fafa9"
+  integrity sha512-Xz21SwEWlq6G8kOTm3mgSfitDayN8x6EzBFtBFwJHqeJiH0oYn3hupQQ0c+yZKt0L0H4JXDAWtKnNJ6oRLIh1A==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
