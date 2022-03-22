@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aws-cdk-containers/ecs-service-extensions@^1.136.0":
+"@aws-cdk-containers/ecs-service-extensions@^1.149.0":
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk-containers/ecs-service-extensions/-/ecs-service-extensions-1.149.0.tgz#defca793a8749fbad19df39221a679bb61a2152e"
   integrity sha512-if3xw136clGTvzkX2bz1yKhA1eaRfcCUPihJtYcJ35naNqPoBjUtArEbJehDLY0QRQV/C/ZdqKBZw2OFjbpppQ==
@@ -34,7 +34,7 @@
     "@aws-cdk/region-info" "1.149.0"
     constructs "^3.3.69"
 
-"@aws-cdk/assert@^1.136.0":
+"@aws-cdk/assert@^1.149.0":
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.149.0.tgz#cad0cbd5c81ec1618e28a4781137175b2caf938f"
   integrity sha512-IYiRYi0xb6rYm5+oW6+xzIyIIIAbyo6DXjNsFPRWSTfM5/9ACmT670T9qlAc85S+TduBWWFOyZaS66/LekX0ug==
@@ -44,7 +44,7 @@
     "@aws-cdk/cx-api" "1.149.0"
     constructs "^3.3.69"
 
-"@aws-cdk/assertions@^1.136.0":
+"@aws-cdk/assertions@^1.149.0":
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assertions/-/assertions-1.149.0.tgz#bc64eb26072db13f09d823d881f0c5d26c24a282"
   integrity sha512-m9bsjvG5CTQSZAufCWj2/b2oJw5FPxilPOBYShnBSUFJY3I5yaaRL82a9XvopQ6wus+OFqDLc0Cc3OOQnojkKQ==
@@ -344,7 +344,7 @@
     "@aws-cdk/core" "1.149.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-ecs@1.149.0", "@aws-cdk/aws-ecs@^1.136.0":
+"@aws-cdk/aws-ecs@1.149.0", "@aws-cdk/aws-ecs@^1.149.0":
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-ecs/-/aws-ecs-1.149.0.tgz#e5580d39fe321ff19a9876738f68901f1be788aa"
   integrity sha512-jXlzhSBSAzq7HfpQo+kSfFbd0J4F1LL4f2ukeV1em3/Voab6424kDQcbw6iF3+M0qT1yuy0DxwfPAO10YeBsRA==
@@ -772,7 +772,7 @@
     string-width "^4.2.3"
     table "^6.8.0"
 
-"@aws-cdk/core@1.149.0", "@aws-cdk/core@^1.136.0":
+"@aws-cdk/core@1.149.0", "@aws-cdk/core@^1.149.0":
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.149.0.tgz#8c491e353885482f0083db022ccfe6a1e5bb067a"
   integrity sha512-7DogiUWgdquGaEZ+7SIOmomtcIJsaAGOxtYbwXut2EBZWihs1FkH5rnhH31D43WnOLim9cX8XWDsEPrPMREyvg==
@@ -1233,7 +1233,7 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk@^1.136.0:
+aws-cdk@^1.149.0:
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-1.149.0.tgz#641f184103404c46460d3b92336804bc9f42bdaf"
   integrity sha512-cxgOakLNUdRZanTmMviybt7J3CfCYixEjBYfQ3tQm7Vbo4w1RQvMB/obcg8yklttJy32tN31gZ6PwuTYvNBcnQ==
@@ -2839,9 +2839,9 @@ minimatch@^5.0.1:
     brace-expansion "^2.0.1"
 
 minimist@^1.2.0, minimist@^1.2.3:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 minipass-collect@^1.0.2:
   version "1.0.2"

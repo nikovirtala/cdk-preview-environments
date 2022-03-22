@@ -1,7 +1,7 @@
 const { awscdk } = require('projen');
 
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '1.136.0',
+  cdkVersion: '1.149.0',
   name: 'cdk-preview-environments',
   repository: 'https://github.com/nikovirtala/cdk-preview-environments.git',
   license: 'MIT',
