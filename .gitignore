@@ -34,6 +34,7 @@ jspm_packages/
 !/.projenrc.js
 !/.github/workflows/build.yml
 !/.mergify.yml
+!/.github/workflows/upgrade.yml
 !/test/
 !/tsconfig.json
 !/tsconfig.dev.json
@@ -46,4 +47,3 @@ jspm_packages/
 /cdk.out/
 .cdk.staging/
 .parcel-cache/
-!/.github/workflows/upgrade.yml
