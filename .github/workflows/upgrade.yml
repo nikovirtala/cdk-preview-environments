@@ -45,7 +45,7 @@ jobs:
         with:
           token: ${{ secrets.PROJEN_GITHUB_TOKEN }}
       - name: Download patch
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: .repo.patch
           path: ${{ runner.temp }}
