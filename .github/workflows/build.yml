@@ -30,7 +30,7 @@ jobs:
           git diff --staged --patch --exit-code > .repo.patch || echo "::set-output name=self_mutation_happened::true"
       - if: steps.self_mutation.outputs.self_mutation_happened
         name: Upload patch
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: .repo.patch
           path: .repo.patch
