@@ -997,9 +997,9 @@
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
 "@types/node@*":
-  version "17.0.23"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
-  integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
+  version "17.0.24"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.24.tgz#20ba1bf69c1b4ab405c7a01e950c4f446b05029f"
+  integrity sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==
 
 "@types/node@^10.17.60":
   version "10.17.60"
@@ -1007,9 +1007,9 @@
   integrity sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==
 
 "@types/node@^12":
-  version "12.20.47"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.47.tgz#ca9237d51f2a2557419688511dab1c8daf475188"
-  integrity sha512-BzcaRsnFuznzOItW1WpQrDHM7plAa7GIDMZ6b5pnMbkqEtM/6WCOhvZar39oeMQP79gwvFUWjjptE7/KGcNqFg==
+  version "12.20.48"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.48.tgz#55f70bd432b6515828c0298689776861b90ca4fa"
+  integrity sha512-4kxzqkrpwYtn6okJUcb2lfUu9ilnb3yhUOH6qX3nug8D2DupZ2drIkff2yJzYcNJVl3begnlcaBJ7tqiTTzjnQ==
 
 "@typescript-eslint/eslint-plugin@^5":
   version "5.19.0"
@@ -1466,9 +1466,9 @@ console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.2.27, constructs@^3.3.69:
-  version "3.3.267"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.267.tgz#a77832a32cafc16f33fa2d0544abc86c49ff9404"
-  integrity sha512-2I78ztC2dae2ZgMFT6wFIzJhvQNjqquEj6ysN2lGTkVhpg2XQj5RZeQ9WK1ICjPqlKFj6d/6vJWZgs6ZfVz/ew==
+  version "3.3.268"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.268.tgz#4b0d29fc3539f235e0e4d7593e94bf7ccd73eb0e"
+  integrity sha512-hbWMEALQbekilwintwaWTw7Hxj+EKn45lIWd3jwp1kiLFfMe1IGOh81JC/suFw3Ig9eFe3akAgZu3mcBUarkjg==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1632,9 +1632,9 @@ err-code@^2.0.2:
   integrity sha512-2bmlRpNKBxT/CRmPOlyISQpNj+qSeYvcym/uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor/N5yhvp/ZiG1oE3DEYMSFA==
 
 es-abstract@^1.19.1, es-abstract@^1.19.2:
-  version "1.19.4"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.19.4.tgz#79a95527af382eb276075627e53762393ce8b57a"
-  integrity sha512-flV8e5g9/xulChMG48Fygk1ptpo4lQRJ0eJYtxJFgi7pklLx7EFcOJ34jnvr8pbWlaFN/AT1cZpe0hiFel9Hqg==
+  version "1.19.5"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.19.5.tgz#a2cb01eb87f724e815b278b0dd0d00f36ca9a7f1"
+  integrity sha512-Aa2G2+Rd3b6kxEUKTF4TaW67czBLyAv3z7VOhYRU50YBx+bbsYZ9xQP4lMNazePuFlybXI0V4MruPos7qUo5fA==
   dependencies:
     call-bind "^1.0.2"
     es-to-primitive "^1.2.1"
@@ -2318,9 +2318,9 @@ http-proxy-agent@^5.0.0:
     debug "4"
 
 https-proxy-agent@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
-  integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"
+  integrity sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==
   dependencies:
     agent-base "6"
     debug "4"
@@ -3313,10 +3313,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.54.25:
-  version "0.54.25"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.54.25.tgz#2ad3c3e799dc6b6778c83527fb565d5f17fbf4fd"
-  integrity sha512-7C4dqt50IGyNrtN0Am4oPe6JUOlooVKmdA4iZA2zj5ruMmT3fGJ28wpbnPGr8BiXt2UOQIVndSbsbiLWFPldyQ==
+projen@^0.54.26:
+  version "0.54.26"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.54.26.tgz#a94e232e022f8a19a7088f496425e97c1300d10f"
+  integrity sha512-m8gVO0PJefgYv8E8y2xADlU97/5UtTeInKMi00cvmvitvSYkaI8Pow7eY/Eof/nE3+znXIrLDe3KKRQUTYKxcw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
