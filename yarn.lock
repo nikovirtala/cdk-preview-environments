@@ -1289,22 +1289,22 @@ buffer-from@^1.0.0:
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 builtins@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/builtins/-/builtins-5.0.0.tgz#20d87e7f95d46481b1abe4adc616a9cb6b492cba"
-  integrity sha512-aizhtbxgT1Udg0Fj6GssXshAVK+nxbtCV+1OtTrMNy67jffDFBY6CUBAkhO4owbleAx6fdbnWdpsmmcXydbzNw==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/builtins/-/builtins-5.0.1.tgz#87f6db9ab0458be728564fa81d876d8d74552fa9"
+  integrity sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==
   dependencies:
     semver "^7.0.0"
 
 cacache@^16.0.0, cacache@^16.0.2:
-  version "16.0.4"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.4.tgz#66877ae82717ade4d1416d5b3caa3a870f2c6d0c"
-  integrity sha512-U0D4wF3/W8ZgK4qDA5fTtOVSr0gaDfd5aa7tUdAV0uukVWKsAIn6SzXQCoVlg7RWZiJa+bcsM3/pXLumGaL2Ug==
+  version "16.0.5"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.5.tgz#149f02b276ee4773896d147f6b1559680c62cba2"
+  integrity sha512-8s/08Kgu5sk9JcmOrekdUTM7cPPewz2FIQWVQOGOCdWPMRxBUD10WXApQD39Qvg1y5AKXcjo+pnOHkeveEFHCA==
   dependencies:
     "@npmcli/fs" "^2.1.0"
     "@npmcli/move-file" "^2.0.0"
     chownr "^2.0.0"
     fs-minipass "^2.1.0"
-    glob "^7.2.0"
+    glob "^8.0.1"
     infer-owner "^1.0.4"
     lru-cache "^7.7.1"
     minipass "^3.1.6"
@@ -1466,9 +1466,9 @@ console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.2.27, constructs@^3.3.69:
-  version "3.3.273"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.273.tgz#d8c50f2866b212774a1b55ed2eacefb1fc63c1f0"
-  integrity sha512-8OAOd3if32Jnqc//G7DkfnSxaqKx8vfENYShhoUI1eg1Uw9MWvs8Q6g8FbRABmBO8ESRzc/xljDA217j2xzqYw==
+  version "3.3.274"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.274.tgz#85d659b09f34b0d62273ec1069ea09cb4700fb7c"
+  integrity sha512-3jJTpEgyO1ARjK/K7Fk+lkZgzn/PGRwBGQ2Xa0uv+WZr/g98G3ZYeiXvevU3/ZfiYnlTKdnkKuRFdSYMn2UkNg==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2129,7 +2129,7 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gauge@^4.0.0:
+gauge@^4.0.3:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-4.0.4.tgz#52ff0652f2bbf607a989793d53b751bef2328dce"
   integrity sha512-f9m+BEN5jkg6a0fZjleidjN51VE1X+mPFQ2DJ0uv1V39oCLCbsGe6yjbBnp7eK7z/+GAon99a3nHuqbuuthyPg==
@@ -3063,11 +3063,11 @@ npm-package-arg@^9.0.0, npm-package-arg@^9.0.1:
     validate-npm-package-name "^4.0.0"
 
 npm-packlist@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.0.tgz#74795ebbbf91bd5a2db6ecff4d6fe1f1c1a07e11"
-  integrity sha512-uU20UwM4Hogfab1Q7htJbhcyafM9lGHxOrDjkKvR2S3z7Ds0uRaESk0cXctczk+ABT4DZWNwjB10xlurFdEwZg==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.1.tgz#029bf0fb465c3fde73908a833def48c212fb0547"
+  integrity sha512-4nBmzp7u9kqQSqqWxXId+gwFCqXQ5Vt+3GtmjPb2m9p7BCWHH/t/ZOw2Rkgp8jjFHiY72YF2zsvJbtmddgmBWA==
   dependencies:
-    glob "^7.2.0"
+    glob "^8.0.1"
     ignore-walk "^5.0.1"
     npm-bundled "^1.1.2"
     npm-normalize-package-bin "^1.0.1"
@@ -3096,13 +3096,13 @@ npm-registry-fetch@^13.0.1:
     proc-log "^2.0.0"
 
 npmlog@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-6.0.1.tgz#06f1344a174c06e8de9c6c70834cfba2964bba17"
-  integrity sha512-BTHDvY6nrRHuRfyjt1MAufLxYdVXZfd099H4+i1f0lPywNQyI4foeNXJRObB/uy+TYqUW0vAD9gbdSOXPst7Eg==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-6.0.2.tgz#c8166017a42f2dea92d6453168dd865186a70830"
+  integrity sha512-/vBvz5Jfr9dT/aFWd0FIRf+T/Q2WBsLENygUaFUqstqsycmZAP/t5BvFJTK0viFmSUxiUKTUplWy5vt+rvKIxg==
   dependencies:
     are-we-there-yet "^3.0.0"
     console-control-strings "^1.1.0"
-    gauge "^4.0.0"
+    gauge "^4.0.3"
     set-blocking "^2.0.0"
 
 object-inspect@^1.12.0, object-inspect@^1.9.0:
@@ -3333,10 +3333,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.54.34:
-  version "0.54.34"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.54.34.tgz#12d644049a9f04b09869cc0a3874211d14ec7ac6"
-  integrity sha512-0DDZEQuEk2pMFZXyg5tuPojjj8k8w6I4mTLUkQpTg4GFaingGRb3Pdc2sYZ0Ps4YHLA/+Li1kqx+rOIQgP8b0g==
+projen@^0.54.36:
+  version "0.54.36"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.54.36.tgz#467b28d93ef2d27f6e52244ae43b4b04d1908555"
+  integrity sha512-qfoLzB9jpUZbT62AjLtl7JC1zpNjg5oi8119w7Nx6xfoZzbx5a1WwW3xgJYj3OttPRTkdjTTp/SjzlGV2jRmpA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
