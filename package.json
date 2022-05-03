@@ -34,7 +34,7 @@
   "devDependencies": {
     "@aws-cdk/assert": "^1.149.0",
     "@aws-cdk/assertions": "^1.149.0",
-    "@types/node": "^12",
+    "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "aws-cdk": "^1.149.0",
@@ -48,7 +48,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.6.2",
-    "projen": "^0.54.58",
+    "projen": "^0.55.2",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
