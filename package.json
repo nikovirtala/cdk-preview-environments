@@ -32,12 +32,10 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-cdk/assert": "^1.149.0",
-    "@aws-cdk/assertions": "^1.149.0",
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^1.149.0",
+    "aws-cdk": "^2.24.0",
     "esbuild": "^0.14.39",
     "eslint": "^8",
     "eslint-config-prettier": "^8.5.0",
@@ -53,10 +51,9 @@
     "typescript": "^3.9.10"
   },
   "dependencies": {
-    "@aws-cdk-containers/ecs-service-extensions": "^1.149.0",
-    "@aws-cdk/aws-ecs": "^1.149.0",
-    "@aws-cdk/core": "^1.149.0",
-    "constructs": "^3.2.27"
+    "@aws-cdk-containers/ecs-service-extensions": "^2",
+    "aws-cdk-lib": "^2.24.0",
+    "constructs": "^10.0.5"
   },
   "license": "MIT",
   "version": "0.0.0",

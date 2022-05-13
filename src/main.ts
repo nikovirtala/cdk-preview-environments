@@ -5,14 +5,14 @@ import {
   Service,
   ServiceDescription,
 } from '@aws-cdk-containers/ecs-service-extensions';
-import { ContainerImage } from '@aws-cdk/aws-ecs';
-import { App, Construct, Stack, StackProps } from '@aws-cdk/core';
+import { App, Stack } from 'aws-cdk-lib';
+import { ContainerImage } from 'aws-cdk-lib/aws-ecs';
+import { Construct } from 'constructs';
 
 export class MyStack extends Stack {
-  constructor(scope: Construct, id: string, props: StackProps = {}) {
-    super(scope, id, props);
+  constructor(scope: Construct, id: string) {
+    super(scope, id);
 
-    // define resources here...
     const environment = new Environment(this, stage);
 
     const serviceDescription = new ServiceDescription();

@@ -1,7 +1,7 @@
 const { awscdk } = require('projen');
 
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '1.149.0',
+  cdkVersion: '2.24.0',
   name: 'cdk-preview-environments',
   repository: 'https://github.com/nikovirtala/cdk-preview-environments.git',
   license: 'MIT',
@@ -9,7 +9,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   authorName: 'Niko Virtala',
   authorEmail: 'niko.virtala@hey.com',
   devDeps: ['prettier'],
-  cdkDependencies: ['@aws-cdk/aws-ecs', '@aws-cdk-containers/ecs-service-extensions'],
+  deps: ['@aws-cdk-containers/ecs-service-extensions@^2'],
   depsUpgradeOptions: {
     ignoreProjen: false,
     workflowOptions: {
@@ -20,10 +20,6 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['nikovirtala'],
-  },
-  context: {
-    '@aws-cdk/core:newStyleStackSynthesis': 'true',
-    'aws-cdk:enableDiffNoFail': 'true',
   },
   buildWorkflow: true,
   codeCov: false,
