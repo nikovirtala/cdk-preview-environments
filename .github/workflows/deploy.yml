@@ -59,8 +59,8 @@ jobs:
           env: ${{ steps.stage.outputs.stage }}
           ref: ${{ github.head_ref }}
 
-      - name: Bootstrap the CDK environment
-        run: npx cdk bootstrap
+      # - name: Bootstrap the CDK environment
+      #   run: npx cdk bootstrap
 
       - name: Diff?
         run: npx cdk diff --context stage=${{ steps.stage.outputs.stage }}
