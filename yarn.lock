@@ -193,9 +193,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "17.0.34"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.34.tgz#3b0b6a50ff797280b8d000c6281d229f9c538cef"
-  integrity sha512-XImEz7XwTvDBtzlTnm8YvMqGW/ErMWBsKZ+hMTvnDIjGCKxwK5Xpc+c/oQjOauwq8M4OS11hEkpjX8rrI/eEgA==
+  version "17.0.35"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.35.tgz#635b7586086d51fb40de0a2ec9d1014a5283ba4a"
+  integrity sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==
 
 "@types/node@^14":
   version "14.18.18"
@@ -667,9 +667,9 @@ console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.11"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.11.tgz#2e55e100b1dc0723f0ff99cec3025702f3ba0676"
-  integrity sha512-VojJd35T7VY3mq9DExDWKxXdOB2WJZK4YtQlrljwP8pBcH9pAw8RzFf358KN8aRj1Bi5oAY+fOpt3DFsPnrm7w==
+  version "10.1.12"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.12.tgz#ec0040e4c0baca32132adf13de82d6d766ac9a65"
+  integrity sha512-u9WKNab4gwzdSxQg1BjVP6g5xDDV1j9mwVL5Z/EYRycCYn3XWDXPK5qLt4hQ45d68TqZ5tGOV075fNPWL5DB1w==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1995,9 +1995,9 @@ make-error@^1.1.1:
   integrity sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==
 
 make-fetch-happen@^10.0.3, make-fetch-happen@^10.0.6:
-  version "10.1.4"
-  resolved "https://registry.yarnpkg.com/make-fetch-happen/-/make-fetch-happen-10.1.4.tgz#b68a64367d2c402f24edc48308ff193d11fc2618"
-  integrity sha512-hU1w68PqfH7FdMgjbiziJoACY0edlbIZ0CyKnpcEruVdCjsUrN+qoenOCIayNqVBK7toSWwbDxvQlrhH0gjRdg==
+  version "10.1.5"
+  resolved "https://registry.yarnpkg.com/make-fetch-happen/-/make-fetch-happen-10.1.5.tgz#d975c0a4373de41ea05236d8182f56333511c268"
+  integrity sha512-mucOj2H0Jn/ax7H9K9T1bf0p1nn/mBFa551Os7ed9xRfLEx20aZhZeLslmRYfAaAqXZUGipcs+m5KOKvOH0XKA==
   dependencies:
     agentkeepalive "^4.2.1"
     cacache "^16.1.0"
@@ -2247,9 +2247,9 @@ npm-package-arg@^9.0.0, npm-package-arg@^9.0.1:
     validate-npm-package-name "^4.0.0"
 
 npm-packlist@^5.0.0:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.3.tgz#0aec03bc2d6d488ca71396d7afb463563c3274f7"
-  integrity sha512-KuSbzgejxdsAWbNNyEs8EsyDHsO+nJF6k+9WuWzFbSNh5tFHs4lDApXw7kntKpuehfp8lKRzJkMtz0+WmGvTIw==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.4.tgz#b8a0635964dbf72baeeb7e69ec32e822f1c26159"
+  integrity sha512-G4sCWzzHokHC5oxGD46Q9vCe+eN2tFb+3RfADD/eZbx4nKa7Y1eku1xvIWrw5R3F3hWX7IM2BgdqbQsyBUa3IA==
   dependencies:
     glob "^8.0.1"
     ignore-walk "^5.0.1"
@@ -2412,9 +2412,9 @@ package-json@^6.3.0:
     semver "^6.2.0"
 
 pacote@^13.0.5:
-  version "13.4.0"
-  resolved "https://registry.yarnpkg.com/pacote/-/pacote-13.4.0.tgz#c0a6eafa28ef0e4d3b238a852b13e29528be0788"
-  integrity sha512-GCeiEtCeaXBB00lqsVek87pozP16AguQ2OeW5COVD/ItTFkidfbd1zX1+s7P4k+mjmpqB6RPcCgAGY7/zM8rtQ==
+  version "13.4.1"
+  resolved "https://registry.yarnpkg.com/pacote/-/pacote-13.4.1.tgz#b6610bf8903abc075bfffa02a2cedafe81a97293"
+  integrity sha512-FqlSWlD8n+ejCE17GF/lf0yasztMGFl4UFzYQk5njaK/qPPWfVDWnfQwqmqeXObWLSmIBew+O+CFD24vxkVDjg==
   dependencies:
     "@npmcli/git" "^3.0.0"
     "@npmcli/installed-package-contents" "^1.0.7"
@@ -2517,10 +2517,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.56.18:
-  version "0.56.18"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.56.18.tgz#1a740aa90a58718d3095b99d12aae87eefd00a36"
-  integrity sha512-lpKUD7I5MeGZ5Pczf5snT9hgYMjgs0t5gh65YJFX/Uh3MkN5yktij57PH2IiJ5BFGMYLL3NCeVpGJYEnb++Hsg==
+projen@^0.56.20:
+  version "0.56.20"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.56.20.tgz#f206b1962814422b9d282a32f720c8705fe8fa23"
+  integrity sha512-PdO6X16CBjnHEsM9ee324OCeeOciBykicQp5Kc1Aq+rfp3MnCaGZ7BrH1oE41BJBvkYjNqEWB7Vl5kiHzbl8ew==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -2887,9 +2887,9 @@ sprintf-js@~1.0.2:
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
 ssri@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-9.0.0.tgz#70ad90e339eb910f1a7ff1dcf4afc268326c4547"
-  integrity sha512-Y1Z6J8UYnexKFN1R/hxUaYoY2LVdKEzziPmVAFKiKX8fiwvCJTVzn/xYE9TEWod5OVyNfIHHuVfIEuBClL/uJQ==
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-9.0.1.tgz#544d4c357a8d7b71a19700074b6883fcb4eae057"
+  integrity sha512-o57Wcn66jMQvfHG1FlYbWeZWW/dHZhJXjpIcTfXldXEk5nz5lStPo3mK0OJQfGR3RbZUlbISexbljkJzuEj/8Q==
   dependencies:
     minipass "^3.1.1"
 
