@@ -45,8 +45,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
-    "prettier": "^2.6.2",
-    "projen": "^0.58.12",
+    "prettier": "^2.7.0",
+    "projen": "^0.58.13",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
