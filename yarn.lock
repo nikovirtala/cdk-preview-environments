@@ -427,9 +427,9 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.29.0.tgz#6ac9fc27f3b551fe7ca941b1ef1d88c185657c1f"
-  integrity sha512-twoxtVTdZoLn5iDfO8vZPFa/j0VAm3o+8wnyzRVYR/BHtTyxWoWvYDxwLLlUijvBJ3KZV+wvqgnjDOTy7vD0IQ==
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.29.1.tgz#3a7bfb03f988c37c9ccd7db454bd66ffce427d14"
+  integrity sha512-tmWhsmSvNrJD9/SFAD0The7hON3VYUcFchKnjPg4vwvY89XzZv76IB24KLy3XoXF33WYvCUzDQPO/bCZQBF4LA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -442,9 +442,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.29.0.tgz#3c810a26651f0adac240100848b643a9d7420f74"
-  integrity sha512-NoFHoel2B2SgDsTH+J3LwWAbnfcdUFoKc9JAMXcBighkYecWPJK6lvPu00N2CGiFRWfkYGWwqU5BbfYJb1KgkQ==
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.29.1.tgz#3b7360c6d195c23cbdb7c994d88e777d4ad106c8"
+  integrity sha512-JRuxHfMPR7kpGrk5fA1NgBmTLPpVa2gIRf5Pz+T9XaHM0lB8QLOkjXD6O5UJvgQtx/rwYAyD8b+n3b1rKaEGRQ==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -2518,10 +2518,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.58.15:
-  version "0.58.15"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.58.15.tgz#37640b839c2af5d03dcfe276f25b9988d84308ab"
-  integrity sha512-js9tdlmyUqPdz46BDYcdCrN936Gcr8ndnjX0J5aYVgOxucS1EHWXdLHqAOyhZiuYevpQ2dXg2AYurEdgjRXPtA==
+projen@^0.58.17:
+  version "0.58.17"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.58.17.tgz#0e5f0b723db94d275b4fd3c038b276a622502d61"
+  integrity sha512-dwVCHFB9cMDDn8ctJM/AXVHHabh+G+AbZ84kSOPo2uvpVdzTMkuJV/T/oXu+CDhkHCJQIfSh5zJ+7Ebpo5MGyg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
