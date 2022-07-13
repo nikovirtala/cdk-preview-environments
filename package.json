@@ -46,7 +46,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.7.1",
-    "projen": "^0.58.27",
+    "projen": "^0.58.28",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
