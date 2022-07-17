@@ -428,9 +428,9 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.32.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.32.0.tgz#495abc4c67b518c6ca4c83f1f05fe39f18216ed7"
-  integrity sha512-IItrnjoLWupP3c16m06hN+13h1trGQ+VMqEn/7aPpBd6rRHcPAdR1f/jr/XxkbNxW+AEfrobAniJwMxWBzbh+g==
+  version "2.32.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.32.1.tgz#1e08043c58665f5b637ffbae9c858c043c8cb531"
+  integrity sha512-P0qGCh9sjJwrM0IaF6uULfup6R4JBoQKOxQxefF0KeCCgI3DbYoNHZOTJPejnaPRdX0Vhq607t6i6bq6gYxjOQ==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -443,9 +443,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.32.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.32.0.tgz#be1a714d61e8d347799365fc396977e6e5e30bbc"
-  integrity sha512-+kXT92TI5dTZA65URHPgX6iqY+msS+srs89XkTzGhPT83GXNU1Tkr0rhVCbGHejT7x0UmwITukY+wBhueNaMUg==
+  version "2.32.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.32.1.tgz#293d8ecf83197b261eb23816dd0933feb1461174"
+  integrity sha512-vnOKmAOLC6OEm6kwTbpx6UWo3vOxSTgZsMfqCb7qr3khWpjYmf4HtfqYx7TppKSFEWu524FTv5+WYy6B7OSZbw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -668,9 +668,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.47"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.47.tgz#24505be63ef8bf80471e6342d9e7e9d77f4b3a0c"
-  integrity sha512-lCV+M526e155p475k4Q8y6VPnsIrUAkPi5Cknn22SdCQBNbX23p3PRJuioYoOKwXU3ol15v9RyWv0rzLG/3Nqw==
+  version "10.1.48"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.48.tgz#e0dbbf445c578aedb6f8fa3cc2bb68247d6c7795"
+  integrity sha512-t1BrdP2X8QoC7cDwCU2TWNa23W8IztPYm3ZeWQvTERf3DSKfDZGg9x3um44dZyP+Iy2cDfKolw8llk+jM7NGkQ==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1102,9 +1102,9 @@ eslint-visitor-keys@^3.3.0:
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
 eslint@^8:
-  version "8.19.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.19.0.tgz#7342a3cbc4fbc5c106a1eefe0fd0b50b6b1a7d28"
-  integrity sha512-SXOPj3x9VKvPe81TjjUJCYlV4oJjQw68Uek+AM0X4p+33dj2HY5bpTZOgnQHcG2eAm1mtCU9uNMnJi7exU/kYw==
+  version "8.20.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.20.0.tgz#048ac56aa18529967da8354a478be4ec0a2bc81b"
+  integrity sha512-d4ixhz5SKCa1D6SCPrivP7yYVi7nyD6A4vs6HIAul9ujBzcEmZVM3/0NN/yu5nKhmO1wjp5xQ46iRfmDGlOviA==
   dependencies:
     "@eslint/eslintrc" "^1.3.0"
     "@humanwhocodes/config-array" "^0.9.2"
@@ -2519,10 +2519,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.58.31:
-  version "0.58.31"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.58.31.tgz#a7e29ab1bed9677fa7cb67475b4685001d3096f0"
-  integrity sha512-6Q5askqD9iQtQpdqCaD3P+e1ToC83xMoHOPac3EWxyyyv3UCUFZpHtpzo3wtH0QmOP/K+AU5sZcmXrrj98ab6w==
+projen@^0.58.32:
+  version "0.58.32"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.58.32.tgz#fc353d58d21e5185184135656a61185c29890e0a"
+  integrity sha512-/7gFwc+AC061g4+/b0FKkt0m6ETgBVlcjvWuTKTol+TtTxjmb9FM7OzC8aQq8m8rWz8k77pyw+HuOFEZPrn+4w==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
