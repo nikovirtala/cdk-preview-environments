@@ -416,9 +416,9 @@ ansi-styles@^6.1.0:
   integrity sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==
 
 are-we-there-yet@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/are-we-there-yet/-/are-we-there-yet-3.0.0.tgz#ba20bd6b553e31d62fc8c31bd23d22b95734390d"
-  integrity sha512-0GWpv50YSOcLXaN6/FAKY3vfRbllXWV2xvfA/oKJF8pzFhWXPV+yjhJXDBbjscDYowv7Yw1A3uigpzn5iEGTyw==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/are-we-there-yet/-/are-we-there-yet-3.0.1.tgz#679df222b278c64f2cdba1175cdc00b0d96164bd"
+  integrity sha512-QZW4EDmGwlYur0Yyf/b2uGucHQMa8aFUP7eu9ddR73vvhFyt4V0Vl3QHPcTNJ8l6qYOBdxgXdnBXQrHilfRQBg==
   dependencies:
     delegates "^1.0.0"
     readable-stream "^3.6.0"
@@ -747,9 +747,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.58"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.58.tgz#f52a545d425407dafc8540409f0f0c1a373cd443"
-  integrity sha512-34ehg9DBhjoWcaaehSn0B8V0U+wh9OO6sam/fiCxKdOsFw+sG3ZSsH1JU/mqlt+r01WTJrvc0aZ86GKItrM4LA==
+  version "10.1.59"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.59.tgz#90cdd323143aef9c6660e0a77dbab4e3397922e4"
+  integrity sha512-dzU21oJthIjjFmEm07Mew1CNRseHrdIufbIEBSqa9x5qPtrqEJHl5Z8XstrPrb4jDQAJ8qwzG/XcOEAjOIwIrw==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2562,10 +2562,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.60.4:
-  version "0.60.4"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.60.4.tgz#10661541b1d00b82c959b8ae550a023f8b9b3298"
-  integrity sha512-RaGrt8Cc+SwQ5UblReJPndJfyeJLml+GnMCP1+dCypn96OqxB9OJdT/BQriMVWeSZ9yBo+WSHm2GdKjY9c0XdA==
+projen@^0.60.5:
+  version "0.60.5"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.60.5.tgz#3edfee4499881262f668d3464ee83f1bed722ee5"
+  integrity sha512-hw85nTXOEr/r4BY8QwHe3Y0TCsmk7vwvxl7VDHVLMJ3oR6ZlbeRzNwTdet60p/ipHyxjyP3Ju+FViGi+R6wWZg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
