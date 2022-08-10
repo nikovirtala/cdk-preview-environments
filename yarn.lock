@@ -497,9 +497,9 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.36.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.36.0.tgz#ea8ea93b85d8adae38bb674c7caef3ed7fdbf6d0"
-  integrity sha512-wxhYPSZi0w8OTTGrnzQr1I++T7ainaviNVmI4e/AoCgycKpLVsrm/7XHPRS13GzeJKcNtKgeoyIbjspGGVIi9A==
+  version "2.37.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.37.0.tgz#80e7be23cca9c7fd627cd355dfa3b229ad7c1c03"
+  integrity sha512-dIeJO3qTJI6nUbPB1T0GdolZ8ictNyqwWM21BfQn5i/DoTwOArIR3/DANuw5FjyjdN1KhtZJeTwipX4Vk2VPfA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -512,9 +512,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.36.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.36.0.tgz#9a6a37715a7fa3bddf075987b30a99027209cc65"
-  integrity sha512-jqdPDW5PFDDisKVJhYnXRQICicT1yEPhLe5tMHNyjEhee8qIU24gRtXcEzBsRrgZDK9inefPvQHkuLee0SLDng==
+  version "2.37.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.37.0.tgz#9cd24221c9a328cffe5fa108acf4093ba8ad8ec2"
+  integrity sha512-ntDHyZsb3RRXGhaMfngcTu8ntQ/kwcO4qRqWPt+be0TybbvqjNfaV/MBGb8hHPuTUmQOJhoyjcE1lyYEyCtBrg==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1625,9 +1625,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 hosted-git-info@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-5.0.0.tgz#df7a06678b4ebd722139786303db80fdf302ea56"
-  integrity sha512-rRnjWu0Bxj+nIfUOkz0695C0H6tRrN5iYIzYejb0tDEefe2AekHu/U5Kn9pEie5vsJqpNQU02az7TGSH3qpz4Q==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-5.1.0.tgz#9786123f92ef3627f24abc3f15c20d98ec4a6594"
+  integrity sha512-Ek+QmMEqZF8XrbFdwoDjSbm7rT23pCgEMOJmz6GPk/s4yH//RQfNPArhIxbguNxROq/+5lNBwCDHMhA903Kx1Q==
   dependencies:
     lru-cache "^7.5.1"
 
