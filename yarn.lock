@@ -246,9 +246,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "18.7.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.6.tgz#31743bc5772b6ac223845e18c3fc26f042713c83"
-  integrity sha512-EdxgKRXgYsNITy5mjjXjVE/CS8YENSdhiagGrLqjG0pvA2owgJ6i4l7wy/PFZGC0B1/H20lWKN7ONVDNYDZm7A==
+  version "18.7.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.8.tgz#6bbf2be6fbf9c187a5040d4277d24a06a18957a1"
+  integrity sha512-/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==
 
 "@types/node@^14":
   version "14.18.24"
@@ -757,9 +757,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.80"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.80.tgz#d4a467ee5afc47f15d1ef7a8d6f88acecb45dfd9"
-  integrity sha512-yWXklyrDvRzGhEfoOIqf2wo8KsRREdIaq5XQeZXHZti4ZyyCzaPmjkPUxbXDffBqXotZgTh0MY8DbbY4wMPVtg==
+  version "10.1.81"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.81.tgz#56b94d9e3d6626e394cc68dc603ba463a129a61c"
+  integrity sha512-nt5mWb1vYI8qvFmIq6epgfCsOfW+OehoE7CNw1oI8sfKvw6v0Vx4GuUYbZYEXVsu3viCoOHHqnD2Gl0t52Yl6A==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1364,14 +1364,14 @@ flat-cache@^3.0.4:
     rimraf "^3.0.2"
 
 flatted@^3.1.0:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
-  integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
+  integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
 form-data-encoder@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-2.0.1.tgz#aec41860aca0275cb6026650d139c6701b0992c1"
-  integrity sha512-Oy+P9w5mnO4TWXVgUiQvggNKPI9/ummcSt5usuIV6HkaLKigwzPpoenhEqmGmx3zHqm6ZLJ+CR/99N8JLinaEw==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-2.1.0.tgz#ee9afc735186a2c897005431c13b624cede616da"
+  integrity sha512-njK60LnfhfDWy+AEUIf9ZQNRAcmXCdDfiNOm2emuPtzwh7U9k/mo9F3S54aPiaZ3vhqUjikVLfcPg2KuBddskQ==
 
 fp-and-or@^0.1.3:
   version "0.1.3"
@@ -2547,10 +2547,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.61.18:
-  version "0.61.18"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.61.18.tgz#851ebf195d7b2b37ca20a555ddaf6b0d7a55efd6"
-  integrity sha512-acn62cS/cxZlZBlQoxnMyrI+Lmap3SUW/jjWr9mIvLDi/iByBOjLoZTsmgCW1wsPkvxtnwaag1BUfERhtSyLaw==
+projen@^0.61.21:
+  version "0.61.21"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.61.21.tgz#f3e6dd96e5cb24a1b0d44fbf9694b2dd23397e1e"
+  integrity sha512-+Ab3ZHg0RQKTP+r8u/O70i3t6CbJNALsUGInC6UsIRlyntOqAffMZzM6fP/IYIacZn5ZvvvAt2BW2maLidbuEA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
