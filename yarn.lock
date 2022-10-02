@@ -754,9 +754,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.118"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.118.tgz#3cbad0e17d4b4092ea50411ff23a1dcf70337576"
-  integrity sha512-vTyGorgrfNBagaY7b56wmys6EVjScIePhGt72fXj4FFrxxp2yjOgv7LwSkrnC6LPvdqBwh0FtsM/33PH9FnApA==
+  version "10.1.119"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.119.tgz#b13d3c58024d81952896216a1ff9d958aa790e81"
+  integrity sha512-sPP+wQn8KcpZn+Qu5yKU/zPQR2xP0QRacj7I+2VSZNY5QYdWAUQrH8ItlXJdlHOElF64CrVeX92G6uoSb5q3hA==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1908,9 +1908,9 @@ jju@^1.1.0:
   integrity sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==
 
 js-sdsl@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.1.4.tgz#78793c90f80e8430b7d8dc94515b6c77d98a26a6"
-  integrity sha512-Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw==
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.1.5.tgz#1ff1645e6b4d1b028cd3f862db88c9d887f26e2a"
+  integrity sha512-08bOAKweV2NUC1wqTtf3qZlnpOX/R2DU9ikpjOHs0H+ibQv3zpncVQg6um4uYtRtrwIX8M4Nh3ytK4HGlYAq7Q==
 
 js-yaml@3.14.0:
   version "3.14.0"
@@ -2557,10 +2557,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.63.1:
-  version "0.63.1"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.63.1.tgz#b0bc0dfe7ee7f1016b02d90921bf5e563447ff85"
-  integrity sha512-srGY1AV+9dHpr30k4350ajIrWUjP1dwTvR+Bt++6/4joGB48Lqzuwhsflzz/IIltMYFB30ltkHMD5KXiBNGMcg==
+projen@^0.63.2:
+  version "0.63.2"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.63.2.tgz#9e1950baa1077cbb37d04483706c7d62565d0a2f"
+  integrity sha512-KSPB//9gjPru+nhHK8F+CmOO1Us1+jkUPfbL/Mu722M7HoRzeZi8SJZb7y2ZkIG8QZYXvCi+ScEAzd9C6RBUmQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
