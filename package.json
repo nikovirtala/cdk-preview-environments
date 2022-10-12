@@ -44,9 +44,9 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "json-schema": "^0.4.0",
-    "npm-check-updates": "^15",
+    "npm-check-updates": "^16",
     "prettier": "^2.7.1",
-    "projen": "^0.63.14",
+    "projen": "^0.63.17",
     "ts-node": "^9",
     "typescript": "^3.9.10"
   },
