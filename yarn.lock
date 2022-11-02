@@ -261,9 +261,9 @@
     keyv "*"
 
 "@types/node@*":
-  version "18.11.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.8.tgz#16d222a58d4363a2a359656dd20b28414de5d265"
-  integrity sha512-uGwPWlE0Hj972KkHtCDVwZ8O39GmyjfMane1Z3GUBGGnkZ2USDq7SxLpVIiIHpweY9DS0QTDH0Nw7RNBsAAZ5A==
+  version "18.11.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.9.tgz#02d013de7058cea16d36168ef2fc653464cfbad4"
+  integrity sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==
 
 "@types/node@^14":
   version "14.18.33"
@@ -520,9 +520,9 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.49.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.49.1.tgz#fa1404fe83c7f500dc25d236fcfd9b339fd3f4a5"
-  integrity sha512-Fg5aveh34YByCw67wc39GtbnvxFRghWLGkN83jhq7+gAwWTRJjP4rlO5mPEfEXA/6hKoslxYYx0sjeeBvXEtJw==
+  version "2.50.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.50.0.tgz#2b3a9ba4c1c4c56fd32e3e4f57eea8bf9fa3dbba"
+  integrity sha512-deDbZTI7oyu3rqUyqjwhP6tnUO8MD70lE98yR65xiYty4yXBpsWKbeH3s1wNLpLAWS3hWJYyMtjZ4ZfC35NtVg==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -535,9 +535,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.49.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.49.1.tgz#053bd855689d837c2cb95810dfe6d3fe281e034d"
-  integrity sha512-DNlGqLBn8TcKuGWrlYLLdXpbjsO161tLJOcrcQ97PIbQRijRpjPK0KNe9sqriBB/0ULI5REPQ/N9uaMrlK4N2A==
+  version "2.50.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.50.0.tgz#6c6d723ba66b24245f58c363071ce20a17eabbed"
+  integrity sha512-55vmKTf2DZRqioumVfXn+S0H9oAbpRK3HFHY8EjZ5ykR5tq2+XiMWEZkYduX2HJhVAeHJJIS6h+Okk3smZjeqw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -792,9 +792,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.146"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.146.tgz#673283218f7caf498ed548776b17087e30589d8c"
-  integrity sha512-HBCMNisXaQ9+gDz9hTto4aTT3h8l4SD2fMbYN0UwMJKnPwReXH0YJaZBtgRSk9Qj7KfrZcrRDitpIboxctcj2g==
+  version "10.1.147"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.147.tgz#5ca388fd546ea87bc520f1705ea8de6dc00d03ab"
+  integrity sha512-rM2Mc5PJ+zS4h2T2zJeUQTLYYOs4vHaXGCV8a1P+s3aknL8ATmgKui4cOMypa6yJxFW2b74VcgRpt/dhA2eE6g==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2603,10 +2603,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.65.7:
-  version "0.65.7"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.65.7.tgz#ece7b98de3b4f760f54fde7911257330ca0c05d3"
-  integrity sha512-OJtfdWESLJbTf1MHCbEiw3am1rbs/laotcBHjpKgeRxDKH5cD0s87/8FBZUbSuDUvvFCsCIh4H+YRbABCWXIPw==
+projen@^0.65.9:
+  version "0.65.9"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.65.9.tgz#4891aa44cb917d3d9cf9cbf9d98ee6162795e810"
+  integrity sha512-Op+k8WbzEGqtyqWhcZoDetfhRQeslxGTBDaoX64AXaWqpjv8d+1PuHIg+hJnbd8Xf9enCkH+jd4yyjo+SutTbQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -3102,9 +3102,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 tar@^6.1.11, tar@^6.1.2:
-  version "6.1.11"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
-  integrity sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
+  version "6.1.12"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.12.tgz#3b742fb05669b55671fb769ab67a7791ea1a62e6"
+  integrity sha512-jU4TdemS31uABHd+Lt5WEYJuzn+TJTCBLljvIAHZOz6M9Os5pJ4dD+vRFLxPa/n3T0iEFzpi+0x1UfuDZYbRMw==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
