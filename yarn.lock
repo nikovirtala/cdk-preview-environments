@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.9":
-  version "2.2.19"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.19.tgz#1fb8890d2b7961a916ba3314b1995c78bb6c3a8e"
-  integrity sha512-WoNudPYJTmqIpp4fEGIL1grKcFA1UPg160bfQ7/J8OZ6Wf2Qb1ZChX0WbmRKwKCZocKMYqktbFBvu/OtFOsaWA==
+  version "2.2.20"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.20.tgz#d821c02e316d57cb7432e2e62cef11782647f14b"
+  integrity sha512-ZKrUu3nYWdJt2so6gaOn9aS5ttb/ScDHRe9RBRgCp1DRqtUByL5m++2c7QQrTSIiMjkDHSkB5OO2k+tizACrCQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -21,9 +21,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.15":
-  version "2.0.25"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.25.tgz#16472728cda8ffcd5e71d61e335eec0316ac716e"
-  integrity sha512-5R4WLrpnZ6W3b+HP8xz86qnH3TSPGEFjiqgPnAOzGx1j/NJnlkvFWJrC01GKFDbueXqtRST+XKapIHRGjiUG+Q==
+  version "2.0.26"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.26.tgz#73a734ecd72d6582338de42c93b3930e12507d16"
+  integrity sha512-c+5R41bZhMUVnM4t4fqOwV2J9hUqEALuavvM7+JdmLWhvhf/MsW7zxJnF27Krvptubxj8V6pw6rNhiVkUx1nqw==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -770,9 +770,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.171"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.171.tgz#530f2cda3c57865fc16473db1d95d7914aa91cd3"
-  integrity sha512-6OeXoQwdqPefe4WXd7AMGAvlsWrL+BhbqBkadJikp9LusOcPZqMU56Nn89UoTpB+Wtt2ZV3TgSqGywhnk+wa6A==
+  version "10.1.172"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.172.tgz#b01899e70d9518d4ce20320e66d3f7732c7bfa71"
+  integrity sha512-D8ZLeRzRGsZ3YM+utjaCsk/EubzxfGXUdyxVDqj/JRu+t/hppwtqegg02ouhzRbrv/ykDkV4YIYu8gYNKkNhbA==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
