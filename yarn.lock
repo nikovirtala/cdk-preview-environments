@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.9":
-  version "2.2.23"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.23.tgz#80c95e1288ae061f38ca563d22045d535ddb4f87"
-  integrity sha512-iWnTqDed6PmUeQR9ZuoFQOlA/8xGNsFU85iv8ecaueLDn1vGjsiVNwF2pI+JtrSfWBrZqEZogp8Efih1EX4suA==
+  version "2.2.24"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.24.tgz#e5ea3d76d81819b78953e1858e5a45ac2a544817"
+  integrity sha512-MW8JuXwZM5XEBAFMOY8JTGkeXW8mmzdl+XoHbAwi6w0KFOALDizIq+QdWKExh+Z77Nu9KvklBA26aSL9rT3zrQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -21,9 +21,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.15":
-  version "2.0.29"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.29.tgz#fb655c82cd4de87386086c1041dc829de78320b2"
-  integrity sha512-dGk+l13xT03z/+qsyUvKxrn8v9k9aZefOo+GTbEZdHzG6qkTBk/iyOmTh9Oweoaf1o5FTCdL1tKb9T/naAYt/g==
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.30.tgz#1515fb3f011ce0b50b92dfbd2d165d3ba86a29c4"
+  integrity sha512-EruKG+4f0j+ft/PDu0zLoyYLadPwTve99hglbezhV8gD5ER9qIFoKYiZXW1w3ySZDgrOlTI8T1sVNdQWxbARyQ==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -251,14 +251,14 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "18.11.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.9.tgz#02d013de7058cea16d36168ef2fc653464cfbad4"
-  integrity sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==
+  version "18.11.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.10.tgz#4c64759f3c2343b7e6c4b9caf761c7a3a05cee34"
+  integrity sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==
 
 "@types/node@^14":
-  version "14.18.33"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.33.tgz#8c29a0036771569662e4635790ffa9e057db379b"
-  integrity sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==
+  version "14.18.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.34.tgz#cd2e6fa0dbfb08a62582a7b967558e73c32061ec"
+  integrity sha512-hcU9AIQVHmPnmjRK+XUUYlILlr9pQrsqSrwov/JK1pnf3GTQowVBhx54FbvM0AU/VXGH4i3+vgXS5EguR7fysA==
 
 "@types/semver@^7.3.12":
   version "7.3.13"
@@ -770,9 +770,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.175"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.175.tgz#50595d693c1c733ca2df8c442ec37458c86fa0fe"
-  integrity sha512-SL7ywhJ3QvkjrSX2aespKUmyRYCyC1qHEJnqouUsrMl60Ne4BGNqskE9oyaLeizpsMC2qyEEx9OwDYPclKd8Vg==
+  version "10.1.176"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.176.tgz#2397c41400bda7214da992ddba35f623c884e24a"
+  integrity sha512-1+fQUc9AcJImVlRfyC0lAAhB4coAqvV+M7ZqfCX/8FLq2X1xuY1eDhlR2MHB6h1ndkyrPHqpbQaxoJhoQzLb8w==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2585,10 +2585,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.65.40:
-  version "0.65.40"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.65.40.tgz#573e1b1efb5a00647423bb6e905504c29726eb79"
-  integrity sha512-QOs30OTNi2RMrny/1cy5YChQYJ4FxDacorETSzb0D8Xf5I35vRoBgRtQ9WuKeoGsrzGilCKHQQ5GaHczKEC4VQ==
+projen@^0.65.42:
+  version "0.65.42"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.65.42.tgz#e9f8d49f6c985b65d02e3167edbee588098cd89e"
+  integrity sha512-M5vjepFEKxsYblZ7VoqAS6jayielM5ZccQaJy6XQRW8oPU1jaVP8LSInjrLbTv80RUxCBkYrXaL6WooADkYmXg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
