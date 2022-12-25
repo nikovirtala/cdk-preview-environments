@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.30":
-  version "2.2.39"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.39.tgz#bbea03debcf16ab57fee8639d3b0cb881d3561c0"
-  integrity sha512-H+g33pOw2mp3xZ9btQ2u6xnJwo09VTkTNW0fSA1kNoHCXGPRlhDmo0yOzoubSDJlzFOrWCD7WoQOcgzUVzaYpQ==
+  version "2.2.40"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.40.tgz#718d0d1303851369c899f0b11950f30a42d6478b"
+  integrity sha512-0qdP22IzL0XPRgKnVp5RTW5+8WC1ks9fzgpuHh8tVmFnbE8yxBmClB/Q8Lx3hHC5Od1DtKGYVZUS2GJHTVvY4A==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -880,9 +880,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.199"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.199.tgz#153b2ab7952fbaea590e07c8fa7ccdda0ed71409"
-  integrity sha512-wil0CGK+fTRDM5zlMjthaAVtUEPFzpOlVdj7h7mPLKHDc22J5bKyhoa31uSOxInnKxnTLGgmNKOBqtK4w5gSPw==
+  version "10.1.200"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.200.tgz#00e783b49a2f2cd5e86e5b868904041e323312b8"
+  integrity sha512-VnbMKxfJ4Aa4VPHF2cS1RWeaG/VARXr7+/HbgpPs8RbX7k16ZcxbDegg6nJ6vEFqMLRKVFIseliBoFVM3jNxCw==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
