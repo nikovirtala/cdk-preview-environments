@@ -901,9 +901,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.235"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.235.tgz#8051459c33a14f51ec428edb4321be55a7dffb94"
-  integrity sha512-d4YdcNyV0Id3rjsIuges4vCY1u4yGcr6SSx3OYtQG87NMOLpRCdibNAaWfj8pWJNqm7WHBc6bjfd8WX2nsEJjA==
+  version "10.1.236"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.236.tgz#52cbd09dc7c6fce9d4aa75688c8c2d2f9a39a2fd"
+  integrity sha512-JBikdlmN5sKDjwZmPPoveNr7K6N7SQLBEJY83r3Px86CGyMu0YXtaYpjFg2fQd9zs8X77QnyNzb54SKiicSD9g==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1461,9 +1461,9 @@ fs-minipass@^2.0.0, fs-minipass@^2.1.0:
     minipass "^3.0.0"
 
 fs-minipass@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-3.0.0.tgz#8e6ed2b4e1ba44077cae69971393068a1bbeeed6"
-  integrity sha512-EUojgQaSPy6sxcqcZgQv6TVF6jiKvurji3AxhAivs/Ep4O1UpS8TusaxpybfFHZ2skRhLqzk6WR8nqNYIMMDeA==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-3.0.1.tgz#853809af15b6d03e27638d1ab6432e6b378b085d"
+  integrity sha512-MhaJDcFRTuLidHrIttu0RDGyyXs/IYHVmlcxfLAEFIWjc1vdLAkdwT7Ace2u7DbitWC0toKMl5eJZRYNVreIMw==
   dependencies:
     minipass "^4.0.0"
 
@@ -2069,11 +2069,6 @@ json-schema-traverse@^0.4.1:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
 
-json-schema@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.4.0.tgz#f7de4cf6efab838ebaeb3236474cbba5a1930ab5"
-  integrity sha512-es94M3nTIfsEPisRafak+HDLfHXnKBhV3vU5eqPcS3flIWqcxJWgXHXiey3YrpaNsanY5ei1VoYEbOzijuq9BA==
-
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
@@ -2333,11 +2328,9 @@ minipass@^3.0.0, minipass@^3.1.1, minipass@^3.1.6:
     yallist "^4.0.0"
 
 minipass@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.0.0.tgz#7cebb0f9fa7d56f0c5b17853cbe28838a8dbbd3b"
-  integrity sha512-g2Uuh2jEKoht+zvO6vJqXmYpflPqzRBT+Th2h01DKh5z7wbY/AZ2gCQ78cP70YoHPyFdY30YBV5WxgLOEwOykw==
-  dependencies:
-    yallist "^4.0.0"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.0.1.tgz#2b9408c6e81bb8b338d600fb3685e375a370a057"
+  integrity sha512-V9esFpNbK0arbN3fm2sxDKqMYgIp7XtVdE4Esj+PE4Qaaxdg1wIw48ITQIOn1sc8xXSmUviVL3cyjMqPlrVkiA==
 
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
@@ -2695,10 +2688,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.67.21:
-  version "0.67.21"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.21.tgz#9beaf0063f3db81ad301d5ff6b76bd0d2b33fc5d"
-  integrity sha512-XQWHCnOgm+SSVdCscbVsF2wnmbtjWHT1hd7RuC4NH9LNjb1wPCkMbDnat4xswr/TxuX5jPwDH0A2DyyC7WrUWg==
+projen@^0.67.24:
+  version "0.67.24"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.24.tgz#23f0ed6a3dde862b07d31dd2bbcb874b730be224"
+  integrity sha512-JAPYnDrB4KZ1YoQj08AVZXecd9QdEcdYUIvvNXd504aJPMUwSZ4vh2oeCdmVsZFmXkvKyduc/MR+v+0vbvMFrQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
