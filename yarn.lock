@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.52":
-  version "2.2.60"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.60.tgz#99dde443c36ee04866a02ce1e6bdc0b819d4ada8"
-  integrity sha512-E98upeNn8dYO6Dvk4svyZHGcbkwDHXPgCUBVqKqdoPH20dUOqX5Ny2WwYL9epWdAf999Fnbv5vlTAEUKkWgKEQ==
+  version "2.2.61"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.61.tgz#635f961c7ccf28964b023b84293f184006a86595"
+  integrity sha512-IyPNQwucBvn7kQpS3E4Vsttx8VC5W5/RbbQal3KavIoBJJ5wVHSBv/kNqvVNg1KfTvbiIVXIEKHdMEqH0aNo+g==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -21,9 +21,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.42":
-  version "2.0.49"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.49.tgz#5fb3da651c6c7cf3b00fbb78284726f676c71510"
-  integrity sha512-TfeOA+4ecTOBGn1IkeXICZz2YYKOk3Ee95trc3ReQAxpOzej7nCPtzPfrHzRmrEcN1oOD+DLsa0R7yxXHm9bLg==
+  version "2.0.50"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.50.tgz#0429b1a7ab4b48b88584c11013bd406587560d0e"
+  integrity sha512-FU5SzE2CVptKVrX589sGBGG+r6c9i8p/eqjagIqKWTF62Wznh0n2GOQE7vWzkHWuYGeLBku1/+hhyqCwxVujUg==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -902,9 +902,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.244"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.244.tgz#2ec4487384f47992052baca419949c0dca2b1723"
-  integrity sha512-oJBy6JoiwocEwKxY3yMXfbClT5ocKmX5qXUDpcxW4SRjlRvB8X2pR/lNqg74JVm9qAEUBesI0FLLqc2Ke1I2QA==
+  version "10.1.245"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.245.tgz#8b1075fa68c7e798cdb84af36b3072b92003ff3d"
+  integrity sha512-3TOxsgv5atw87/tAnW4aa7aAp1lA8kqjJ/i78t7jCHJEDzWEOGpT2JjLulyNq+GtyIGBKvHd2a64gogULFJY6Q==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2680,10 +2680,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.8.3:
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.3.tgz#ab697b1d3dd46fb4626fbe2f543afe0cc98d8632"
-  integrity sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==
+prettier@^2.8.4:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
+  integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
 proc-log@^3.0.0:
   version "3.0.0"
@@ -2695,10 +2695,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.67.40:
-  version "0.67.40"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.40.tgz#9c637c12695203bfd73d8a65b4efa74200426271"
-  integrity sha512-DXxnOTagMzEe4LySi+7Mo8Q8JPbNJK3OkAzwNewhu3lkV/P3C6xiZMADbUFIxwNZRIXPVwu5LBGRJVJkRmw0/Q==
+projen@^0.67.42:
+  version "0.67.42"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.42.tgz#c25fab4b341526eb9f4971c608996fba1db5123b"
+  integrity sha512-F5ErCBiKCSdg7KIk4DZBRKHsbA95xvtWp1O+HFzpU6WRnVxQXwpUYxYRkLmFDK02TouqzZToHJhf2e6fAeoHKA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
