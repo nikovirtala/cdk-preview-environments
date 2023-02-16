@@ -10,20 +10,20 @@
     aws-cdk-lib "2.19.0"
     constructs "^10.0.0"
 
-"@aws-cdk/asset-awscli-v1@^2.2.52":
-  version "2.2.67"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.67.tgz#3b382760beea1e403e3e58b8e04ec46bd11d4d65"
-  integrity sha512-d3V26C26SGdG0wMeuXDdoPA4CZJQgHS53fqmIuSUNw83vMBullJSUGLxNvk2LzdWcuftSpMUqIUKLKxFzDEMIA==
+"@aws-cdk/asset-awscli-v1@^2.2.65":
+  version "2.2.68"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.68.tgz#b63c2844b70ed21cb7d8917c4c0935b2c8a640fb"
+  integrity sha512-/rx5dTFSSyKtYa1VOFuqt+hjQv5AnEc3x0OAmaHRhHWIepgUQ3aPHCyln/izgnwR4Y4albsptxoerM4lGEoaUg==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-kubectl-v20/-/asset-kubectl-v20-2.1.1.tgz#d01c1efb867fb7f2cfd8c8b230b8eae16447e156"
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
-"@aws-cdk/asset-node-proxy-agent-v5@^2.0.42":
-  version "2.0.56"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.56.tgz#dd45d54626c2c09e566db336756a53360c36a495"
-  integrity sha512-gmne4sTHeGfsnqyrpmMgp4VpNRRoaCrJIyEhcmokYL3qiE+qkeAJVVWXM7cL1rC05WjsG93IIg9Hw09g2VZRlA==
+"@aws-cdk/asset-node-proxy-agent-v5@^2.0.54":
+  version "2.0.57"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.57.tgz#9c6c4b92cf2a33340eb0e65f4b5e229e3b42f562"
+  integrity sha512-oLxJ9VQdSP2L8EALzChmWdzgq5wc4UidJfWYTCfuiZox6r0vW5ftYIffVgE/+iA0WxRstJUQz/nmpOeGfNbQDQ==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -624,13 +624,13 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.64.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.64.0.tgz#18f34262b54d3e4088680951137e32da8fe2a148"
-  integrity sha512-IrgL7thb6TeOyHgyR/qKWTdA9FBb9lv7Z9QPDzCNJlkKI+0ANjYHy3RYV8Gd+1+kc6l8DG9Z1elij40YCr/Ptg==
+  version "2.65.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.65.0.tgz#0f709f1aaa7cfd8029d8b017bec1e6a4c15fabd9"
+  integrity sha512-yTeBe9+Li8ZHZICJc0y1uarbSruc3KIXP1KC7tjVrkg+ye7EE8eJTZm7+PpJd6O0ciPinn/k/dE9gHwUImygGA==
   dependencies:
-    "@aws-cdk/asset-awscli-v1" "^2.2.52"
+    "@aws-cdk/asset-awscli-v1" "^2.2.65"
     "@aws-cdk/asset-kubectl-v20" "^2.1.1"
-    "@aws-cdk/asset-node-proxy-agent-v5" "^2.0.42"
+    "@aws-cdk/asset-node-proxy-agent-v5" "^2.0.54"
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
     fs-extra "^9.1.0"
@@ -642,9 +642,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.64.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.64.0.tgz#8dd6561c678053852ab16851292d7a2023f53bd9"
-  integrity sha512-iXkvVeYKt6Glboeicrb3QxC6K6o25+zitM/UTfgVzDlKEvC4hwQp1KqXy/caN7SfA6X2N0LJmXfC99T4cvIH0A==
+  version "2.65.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.65.0.tgz#ffa96a11fdf3750b1f3b0501b5c8dd01d483034d"
+  integrity sha512-a1xtdf95N7MLPcwCs+IkE6kCD1utLMuDh+1RIyYbX7SYzAjlNJzOXQ7M16kBktt4KflVWseZnYsGbKWJ2DraMw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -902,9 +902,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.251"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.251.tgz#103e9d6edb0778eed8f80e73c71af4c81ae5a702"
-  integrity sha512-z0cEtkbWWZIu4Rb/WnCO+lJ1Px2pCgrfyF012oRn5QacmTF5QLlADkio8vqXn5SvozpZF+mF9aJFrPAwGzw0NQ==
+  version "10.1.252"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.252.tgz#a241329ffc50451b6de4fb9147ef32b0e181a515"
+  integrity sha512-8j3bcoSTlIjbCu1tflWHvipVDWmllUNu3dEWb5GXvsXCiYuH0NtXCCN5q6GmFInDcspZp8WOYu66uqQ8Bk7jzQ==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2696,10 +2696,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.67.53:
-  version "0.67.53"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.53.tgz#f6e442c3925220b5cde6eb319a307746dd3bb3e9"
-  integrity sha512-whfuXhmqztSikq4IYOqVYpZfIYG3y2x1HdIeCbY8y5BlMQV1zquMqiwNj1am32bzdkR15+SDiPs/B3TtZJbPAw==
+projen@^0.67.56:
+  version "0.67.56"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.56.tgz#11f7c97cef17048f73b9b7b8a5fc6ffeb8aa16c5"
+  integrity sha512-DOX9cIqjfgItf0iA4SXNFv63b/+5KMM1hSK+IKnT63bfeuAXYGPZFGJ1LYd3Sn2ma65fz4CyH9ngqmk94uDM/w==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
