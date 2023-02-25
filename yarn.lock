@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.69":
-  version "2.2.79"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.79.tgz#1ad8c669db803708f6c3f624424d6da198cad923"
-  integrity sha512-NCVpuGK5sAXLbPrYXJLSo93T8bDx/A3ui9Ey+1a5xVjDCsua61fOJxDaClXEI6EUalLGv/US99A2GWIddWSkCg==
+  version "2.2.80"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.80.tgz#dfaa5fdd7d4e7da96007db4a30329ec9f3b5097e"
+  integrity sha512-FQFCdP7/+RcBBMYzGDsUjxXktJtvcQxwiz/jMnWcFn9l7Gyd8OoYEY30BNYpey3O+5XOaErY0sKzzPF2GwRdaQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -21,9 +21,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.58":
-  version "2.0.65"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.65.tgz#eaf54a5c465d889073582cc5a5844656b52df161"
-  integrity sha512-yApOKhsikPgGno9Tl3BrfUF3iOCz6t9wXLsyK9UjtRUBP/NlUPxp7/N3q9EGr66MeaZ2Pj9j12DxRYXgcDxjwA==
+  version "2.0.66"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.66.tgz#944f5a8b99fa137d278717503ebfa5036a1bb134"
+  integrity sha512-hrfYKorom1GasxWXt8Fv9Qi1SsGqPkzc+3A2/9MGdBBoXoy9XdB41tvcom4HIDAW6aoWOyD54rBmyiLMk/KG3A==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -624,9 +624,9 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.66.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.66.0.tgz#531c3446e0763588b0b7aafd9c0745e3b91c7456"
-  integrity sha512-Qmw+lB8uFO+wJX8czw05ciUJObB5gJ5euOXYXXC9BuFPMy1WTA+HYqgSRvgv2mIEnjQb1zlG05oNalvH24Ha7Q==
+  version "2.66.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.66.1.tgz#f560a8a86f755ce1507f15398e55d6c0218f9c1a"
+  integrity sha512-xMnKXOnsoJLoDyl6L3BUYLPa9bqw8UoBlFGGH4gbzpBPViv9b49xvYuW+BLf7bK7IVgTzYQ+VmZKaFsj+VFouA==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.69"
     "@aws-cdk/asset-kubectl-v20" "^2.1.1"
@@ -642,9 +642,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.66.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.66.0.tgz#cc84b263b27e29deacbadbe2d6ec310daa831f68"
-  integrity sha512-UQ2NJsL+j1I8N0/rabORBC74Q84vZD+wK5K8tfX7a7hwCqqmon7TJ7c3lUsQgVGpbi66grcrDxmm4dXeB6cb0w==
+  version "2.66.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.66.1.tgz#1b70a28e1e50362d53b32ff7bb4f1ff7f49a41c1"
+  integrity sha512-exm97/VOH6yZPN2is3UC0acc6KF56AANvCg2gAEhyu6dPBueKxNCzrvsjNg/vmXrA8HqJ2jYJMg88YRNaUfylA==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -902,9 +902,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.259"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.259.tgz#7417728dac7625ca160dd9062cfb3f039ea13406"
-  integrity sha512-JWY18bpN2b+B4TtHstF53Qu6rrkXnezD3wEPONJ2qSF6YzSjJOVinXDQHI1qgmaGkYP0bfGNNa6JxCZhEoWJDA==
+  version "10.1.260"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.260.tgz#aed8cb20310bd05d738aa12c2b03545bc5b0904b"
+  integrity sha512-eO4BX6XkyHiPf8zQ2/seM2T9+0x2P4MlvsEPs+R2YX/hXfoAGSSRZVTW+qzlTJey31MhWyVbJ8Yx6Sja/5wNVA==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2335,9 +2335,9 @@ minipass@^3.0.0, minipass@^3.1.1, minipass@^3.1.6:
     yallist "^4.0.0"
 
 minipass@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.0.tgz#4bf124d8c87c14e99846f9a27c3219d956998c0e"
-  integrity sha512-ExlilAIS7zJ2EWUMaVXi14H+FnZ18kr17kFkGemMqBx6jW0m8P6XfqwYVPEG53ENlgsED+alVP9ZxC3JzkK23Q==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.1.tgz#084031141113657662d40f66f9c2329036892128"
+  integrity sha512-KS4CHIsDfOZetnT+u6fwxyFADXLamtkPxkGScmmtTW//MlRrImV+LtbmbJpLQ86Hw7km/utbfEfndhGBrfwvlA==
 
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
@@ -2697,10 +2697,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.67.64:
-  version "0.67.64"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.64.tgz#ef7b31c8f1e4f11f9db82d97da3d6921fa5b8d78"
-  integrity sha512-hUJkMiS+6Cae7qyoAxWwm24EkXqpqZj5Kdkd7dkW9dR4Og7xSwJaex+6MmW6dDeLiSSFKReNhj0AoSFEJcoEEw==
+projen@^0.67.65:
+  version "0.67.65"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.65.tgz#32e542dc18f4f56ee7f96f3f4dcaf121661bad5d"
+  integrity sha512-092sPzht6yQZvQatbINc2cGG1desct7eixVXNKcNlZrsVJO524KzKCn3tE+DVFVxM6ZGNX7XuYxDz4eruhwKCA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
