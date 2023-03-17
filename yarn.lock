@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.97":
-  version "2.2.106"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.106.tgz#444c6d0045611fbceda44feb14c24b4b8050ed95"
-  integrity sha512-iZHFZJL7gdM2xw0qFqOww4eojxeyhHsaIuUgFrPo0vl7/0LhZzXBDJPnL5yGBWPWOs2tEaYvjkxYrpoLcpnCKg==
+  version "2.2.107"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.107.tgz#a7263006aa38896351632e6af986a22ecc530075"
+  integrity sha512-TFE39Y1FjobS5qTaovVxO2BbtLFNgaeid6dNEij9t3NydXFKORoHfVOGUWAEpMHKtkAy+gHMDZA1dI9rN8KE0A==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -21,9 +21,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.85"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.85.tgz#98eff3d393e8ea9246128b5330eb3f0f7ecb5331"
-  integrity sha512-o+k40Gw+h6MqzOe1eU3X+P3S9DAR1IPwxHKS999KQJNkvSGJHg5RVV1bW6EibQwA9ndqXvkym3LrXtIH9KP+Hg==
+  version "2.0.86"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.86.tgz#1f8ba8f61e46baca5f3e8edfcc09b2433257558f"
+  integrity sha512-0Irmv9iKCgZiwgoqr2VvSLJuaEYA1NyxiLmlGKSEq0Kw2RfMoTXX5q8BUZfVjYroqxsyjqcJmCw5Abc34ZBV5A==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -945,9 +945,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.1.279"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.279.tgz#d9e2aac774d1d9f44cf424ca3cf3f2b3e70011e1"
-  integrity sha512-h6Hv9tEOfvo3CTsZjNhSK8mXuC20rgXLXXn6vSd2wvwSvZzPLIkT68/A6MuPJFd7ASmRdCeVFf5lWULEV+wcVw==
+  version "10.1.280"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.280.tgz#51ff70d56c2b27a24c4d901068b141188194b37e"
+  integrity sha512-ONyTi3iUCp66xYHVnKx3yp2I7YMfSIKEdssTI3cVkL3SZHUJ/jh7dKb5ycsxEkKyO5MtStEc0r2m2zyq1KXRYA==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -1681,10 +1681,15 @@ got@^12.1.0:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-graceful-fs@4.2.10, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
+graceful-fs@4.2.10:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
+  integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
