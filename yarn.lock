@@ -11,9 +11,9 @@
     constructs "^10.0.0"
 
 "@aws-cdk/asset-awscli-v1@^2.2.177":
-  version "2.2.189"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.189.tgz#61295374d39d120278a303d6660ffec2aaba13fb"
-  integrity sha512-AlTeUUvbYyNsdwW0zVyRvLE07PTMTJz1q/bjVxdQ6jGybVTnAyYPTbJtalZU+TaxbBzc23XVS4F4mgeOZfRjkQ==
+  version "2.2.190"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.190.tgz#f6f7bf6a888ba829c10b1def847b9258de3a0716"
+  integrity sha512-Q/PiNMbs073DO0Qg5d/cs/X2qZylqiuOwAfTRMUgOqNrUEIwPnAHQNtH0gmYWsCSKkttQG929WmBtivlK6NRhA==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -21,9 +21,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.148":
-  version "2.0.163"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.163.tgz#80498026421ff6140af822b57b8e495be1e156ed"
-  integrity sha512-9sOZlAOI2rVfEpHp6TK4bLRsqHCQu+DchJY1twxa55BCEUvdKG/rKJjpr/oGJqKcOmoeHJWQjYoKgo6sdI4SZQ==
+  version "2.0.164"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.164.tgz#a027bb93b29f2357f58ea45f751a1dd44c5ff573"
+  integrity sha512-mqK5sGcnjTuPLdhvGqSueSObGFMszYsfe1wKFlbeaoJWG47ngO8AQXnM7CboPUpvCajcig3aITuKvuZ27+FM+Q==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -333,9 +333,9 @@
     graceful-fs "4.2.10"
 
 "@pnpm/npm-conf@^2.1.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@pnpm/npm-conf/-/npm-conf-2.2.0.tgz#221b4cfcde745d5f8928c25f391e5cc9d405b345"
-  integrity sha512-roLI1ul/GwzwcfcVpZYPdrgW2W/drLriObl1h+yLF5syc8/5ULWw2ALbCHUWF+4YltIqA3xFSbG4IwyJz37e9g==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@pnpm/npm-conf/-/npm-conf-2.2.2.tgz#0058baf1c26cbb63a828f0193795401684ac86f0"
+  integrity sha512-UA91GwWPhFExt3IizW6bOeY/pQ0BkuNwKjk9iQW9KqxluGCrg4VenZ0/L+2Y0+ZOtme72EVvg6v0zo3AMQRCeA==
   dependencies:
     "@pnpm/config.env-replace" "^1.1.0"
     "@pnpm/network.ca-file" "^1.0.1"
@@ -692,9 +692,9 @@ aws-cdk-lib@2.19.0:
     yaml "1.10.2"
 
 aws-cdk-lib@^2.24.0:
-  version "2.83.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.83.1.tgz#ee2a3dde7af0540cc091d5c9f3fb401470f830e7"
-  integrity sha512-bFYXJDRyuH9x/xmANucKiEzzAbF683XDKOEmSivEgIkGP3zYkZ6beWajSAOQqRsm1VOPjgcpFuJtggUOkdPVKg==
+  version "2.84.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.84.0.tgz#cb08033f5cfba5aed3c0b0cb11a46fc1cbe1586c"
+  integrity sha512-4zLtCLCIs5Ia4WRGqiXRwxSkpGaNy3NxMexO9qYHSuIYpqf4sHObzZ0tDHZCFL5Wkui3sCu3OLQWrRHrr93HvA==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.177"
     "@aws-cdk/asset-kubectl-v20" "^2.1.1"
@@ -711,9 +711,9 @@ aws-cdk-lib@^2.24.0:
     yaml "1.10.2"
 
 aws-cdk@^2.24.0:
-  version "2.83.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.83.1.tgz#a71c226f806b2e2ccfff0a5b3c1037759b1c15ee"
-  integrity sha512-hM2fsHl2TXk3B0MTq7zRU/KqJiVrnTQ3SXbAfleQCfCf/Jpy6yD6nGqrEADFAYNLSPoA9iC3SLnO73SPqqjjRQ==
+  version "2.84.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.84.0.tgz#59890df8555b0179630af72a131fbf201dc0967b"
+  integrity sha512-XypGsMW+H6DLLIPt4zG5KWv1FuUlpS6jqEROxg5maJFFsRaQnMkfgXP/ZT1IELyIWCYAZl6xD1rz7WRS3yMueA==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -2661,9 +2661,9 @@ p-map@^4.0.0:
     aggregate-error "^3.0.0"
 
 package-json@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/package-json/-/package-json-8.1.0.tgz#2a22806f1ed7c786c8e6ff26cfe20003bf4c6850"
-  integrity sha512-hySwcV8RAWeAfPsXb9/HGSPn8lwDnv6fabH+obUZKX169QknRkRhPxd1yMubpKDskLFATkl3jHpNtVtDPFA0Wg==
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/package-json/-/package-json-8.1.1.tgz#3e9948e43df40d1e8e78a85485f1070bf8f03dc8"
+  integrity sha512-cbH9IAIJHNj9uXi196JVsRlt7cHKak6u/e6AkL/bkRelZ7rlL3X1YKxsZwa36xipOEKAsdtmaG6aAJoM1fx2zA==
   dependencies:
     got "^12.1.0"
     registry-auth-token "^5.0.1"
@@ -2771,10 +2771,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.71.94:
-  version "0.71.94"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.71.94.tgz#c730a1511cdf415d508543196d7d0d54f04ae854"
-  integrity sha512-zedd04Y1DDdqWVcgJ+RSBjE5ubkPjUm0Ln9ER0BnWRtdq/zUfhPeBNMRB7HtpgZFmWSmW4jKrySv/OwNtceLzA==
+projen@^0.71.96:
+  version "0.71.96"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.71.96.tgz#caecb076692ba21ce4a01ef00f523f1ce4134f51"
+  integrity sha512-txStVpOb+ppD9bDHAVGwpmKHswxWfteBSR09LzcdptNlWNvT+4OHPg8TVrNfz8dOLMTzKTGKHDtS6hOg2HvvSw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
