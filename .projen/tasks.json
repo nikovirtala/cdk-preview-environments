@@ -218,7 +218,7 @@
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade"
+          "exec": "yarn upgrade @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser aws-cdk esbuild eslint-config-prettier eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint npm-check-updates prettier projen ts-node typescript @aws-cdk-containers/ecs-service-extensions aws-cdk-lib constructs"
         },
         {
           "exec": "npx projen"
