@@ -31,11 +31,9 @@ jspm_packages/
 *.tgz
 .yarn-integrity
 .cache
-!/.projenrc.js
 !/.github/workflows/build.yml
 !/.mergify.yml
 !/.github/workflows/upgrade.yml
-!/.npmrc
 !/test/
 !/tsconfig.json
 !/tsconfig.dev.json
@@ -48,3 +46,4 @@ jspm_packages/
 /cdk.out/
 .cdk.staging/
 .parcel-cache/
+!/.projenrc.js
