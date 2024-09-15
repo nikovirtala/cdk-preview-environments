@@ -4,10 +4,10 @@ import {
   HttpLoadBalancerExtension,
   Service,
   ServiceDescription,
-} from '@aws-cdk-containers/ecs-service-extensions';
-import { App, Stack } from 'aws-cdk-lib';
-import { ContainerImage } from 'aws-cdk-lib/aws-ecs';
-import { Construct } from 'constructs';
+} from "@aws-cdk-containers/ecs-service-extensions";
+import { App, Stack } from "aws-cdk-lib";
+import { ContainerImage } from "aws-cdk-lib/aws-ecs";
+import { Construct } from "constructs";
 
 export class MyStack extends Stack {
   constructor(scope: Construct, id: string) {
@@ -21,12 +21,12 @@ export class MyStack extends Stack {
         cpu: 256,
         memoryMiB: 512,
         trafficPort: 8080,
-        image: ContainerImage.fromRegistry('nikovirtala/honk'),
-      }),
+        image: ContainerImage.fromRegistry("nikovirtala/honk"),
+      })
     );
     serviceDescription.add(new HttpLoadBalancerExtension());
 
-    new Service(this, 'service', {
+    new Service(this, "service", {
       environment: environment,
       serviceDescription: serviceDescription,
     });
@@ -34,6 +34,6 @@ export class MyStack extends Stack {
 }
 
 const app = new App();
-const stage = app.node.tryGetContext('stage') || 'default';
-new MyStack(app, 'cdk-preview-environments-' + stage);
+const stage = app.node.tryGetContext("stage") || "default";
+new MyStack(app, "cdk-preview-environments-" + stage);
 app.synth();
