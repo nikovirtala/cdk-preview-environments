@@ -1856,10 +1856,10 @@ prettier@^2.8.8:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-projen@^0.88.9:
-  version "0.88.9"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.88.9.tgz#ab51e410c51478491d4a2ade3b37b2db3afbc65a"
-  integrity sha512-YMza01PNTsOXk9HnRq39meR4eh4TCu4otVQTEUyPAd6e2utgEK/AqHgZypJlRVws7Hb627nv603qgAwiq6yT4Q==
+projen@^0.89.0:
+  version "0.89.0"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.89.0.tgz#5b6353d0ed5ca5cc57dc222c34d8fc2cc3def392"
+  integrity sha512-Ysk5P4+rRDgQ5ZJU7u59FO7vIO+jZ46j07I3jPkQl1ZCV1ymFul1SxRHkQokIc84BanLMbBpLmzddGUQhVctRw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -2163,9 +2163,9 @@ to-regex-range@^5.0.1:
     is-number "^7.0.0"
 
 ts-api-utils@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.3.0.tgz#4b490e27129f1e8e686b45cc4ab63714dc60eea1"
-  integrity sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.4.0.tgz#709c6f2076e511a81557f3d07a0cbd566ae8195c"
+  integrity sha512-032cPxaEKwM+GT3vA5JXNzIaizx388rhsSW79vGRNGXfRRAdEAn2mvk36PvK5HnOchyWZ7afLEXqYCvPCrzuzQ==
 
 ts-node@^9:
   version "9.1.1"
