@@ -32,7 +32,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@types/node": "ts5.5",
+    "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
     "aws-cdk": "^2.158.0",
@@ -51,6 +51,9 @@
     "@aws-cdk-containers/ecs-service-extensions": "^2",
     "aws-cdk-lib": "^2.158.0",
     "constructs": "^10.0.5"
+  },
+  "engines": {
+    "node": ">= 18.18.0"
   },
   "license": "MIT",
   "publishConfig": {

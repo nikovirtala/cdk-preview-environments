@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@types/node",
-      "version": "ts5.5",
+      "version": "^18",
       "type": "build"
     },
     {
