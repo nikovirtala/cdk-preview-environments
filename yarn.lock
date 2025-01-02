@@ -575,7 +575,7 @@ aws-cdk-lib@2.19.0:
     semver "^7.3.5"
     yaml "1.10.2"
 
-aws-cdk-lib@^2.158.0:
+aws-cdk-lib@^2.173.4:
   version "2.173.4"
   resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.173.4.tgz#a690ea79e976e86c761e118fd055aa24a51b7852"
   integrity sha512-0reN94TzkWmyVZDDBlYB4qzJUig8wTHEe82YLHlWRUhrU78fT+drVGUr+lYZwwETaZ+8fLdCOl9ULvFNq7iczQ==
@@ -596,7 +596,7 @@ aws-cdk-lib@^2.158.0:
     table "^6.8.2"
     yaml "1.10.2"
 
-aws-cdk@^2.158.0:
+aws-cdk@^2.173.4:
   version "2.173.4"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.173.4.tgz#a4805cfdf2e9b50297e18271bf506e40a0cda706"
   integrity sha512-zgs3xU28VEKIwHwJHu0ZHeoEmwLGnHS2jPCMc2MsIMZu+a7CKyE77Tw6LwJkuuB96BQyqr6xJB3SbeWjXmcFhQ==

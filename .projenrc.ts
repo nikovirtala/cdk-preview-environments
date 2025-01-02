@@ -2,7 +2,7 @@ import { awscdk } from "projen";
 import { DeploymentWorkflow, DestroyWorkflow } from "./src/workflows";
 
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: "2.158.0",
+  cdkVersion: "2.173.4",
   name: "cdk-preview-environments",
   repository: "https://github.com/nikovirtala/cdk-preview-environments.git",
   license: "MIT",
