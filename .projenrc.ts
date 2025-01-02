@@ -30,7 +30,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   defaultReleaseBranch: "main",
   typescriptVersion: "5.5.4",
   projenrcTs: true,
-  minNodeVersion: "18.18.0",
+  minNodeVersion: "22.12.0",
   github: true,
 });
 
