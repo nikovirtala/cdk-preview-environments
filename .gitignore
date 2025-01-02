@@ -50,4 +50,5 @@ jspm_packages/
 .parcel-cache/
 !/.github/workflows/deploy.yml
 !/.github/workflows/destroy.yml
+!/.github/workflows/lint.yml
 !/.projenrc.ts

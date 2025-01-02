@@ -185,3 +185,67 @@ export class DestroyWorkflow extends Component {
     });
   }
 }
+
+export class LintWorkflow extends Component {
+  constructor(project: awscdk.AwsCdkTypeScriptApp) {
+    super(project);
+
+    if (!project.github) {
+      throw new Error("the project must have GitHub enabled!");
+    }
+
+    const lintWorkflow = new GithubWorkflow(project.github, "lint");
+
+    lintWorkflow.on({
+      pullRequest: {
+        branches: ["main"],
+      },
+    });
+
+    lintWorkflow.addJob("lint", {
+      runsOn: ["ubuntu-latest"],
+      permissions: {
+        contents: JobPermission.READ,
+      },
+      steps: [
+        {
+          name: "Checkout",
+          uses: "actions/checkout@v4",
+        },
+        {
+          name: "Setup Node.js",
+          uses: "actions/setup-node@v4",
+          with: {
+            "node-version": project.minNodeVersion,
+          },
+        },
+        {
+          name: "Install Dependencies",
+          run: "yarn --frozen-lockfile",
+        },
+        {
+          name: "Set CDK Application Stage",
+          id: "stage",
+          run: [
+            'if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then',
+            '  echo ::set-output name=stage::"prod"',
+            "else",
+            '  echo ::set-output name=stage::"pr-${{ github.event.number }}"',
+            "fi",
+          ].join("\n"),
+        },
+        {
+          name: "Synth",
+          run: "npx cdk synth --context stage=${{ steps.stage.outputs.stage }}",
+        },
+        {
+          name: "Lint",
+          uses: "docker://ghcr.io/scottbrenner/cfn-lint-action:master",
+          with: {
+            args: "-t cdk.out/**template.json -i E3002,E3003,W3005",
+          },
+        },
+      ],
+    });
+  }
+}
