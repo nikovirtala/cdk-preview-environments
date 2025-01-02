@@ -1,4 +1,5 @@
 import { awscdk } from "projen";
+import { DeploymentWorkflow, DestroyWorkflow } from "./src/workflows";
 
 const project = new awscdk.AwsCdkTypeScriptApp({
   cdkVersion: "2.158.0",
@@ -30,6 +31,17 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   typescriptVersion: "5.5.4",
   projenrcTs: true,
   minNodeVersion: "18.18.0",
+  github: true,
 });
+
+project.eslint?.addOverride({
+  files: ["*"],
+  rules: {
+    "import/no-extraneous-dependencies": ["warn"],
+  },
+});
+
+new DeploymentWorkflow(project);
+new DestroyWorkflow(project);
 
 project.synth();

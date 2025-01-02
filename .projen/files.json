@@ -4,6 +4,8 @@
     ".gitattributes",
     ".github/workflows/auto-approve.yml",
     ".github/workflows/build.yml",
+    ".github/workflows/deploy.yml",
+    ".github/workflows/destroy.yml",
     ".github/workflows/pull-request-lint.yml",
     ".github/workflows/upgrade.yml",
     ".gitignore",
