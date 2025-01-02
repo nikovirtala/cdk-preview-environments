@@ -158,11 +158,7 @@ export class DestroyWorkflow extends Component {
           name: "Set CDK Application Stage",
           id: "stage",
           run: [
-            'if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then',
-            '  echo ::set-output name=stage::"prod"',
-            "else",
-            '  echo ::set-output name=stage::"pr-${{ github.event.number }}"',
-            "fi",
+            'echo ::set-output name=stage::"pr-${{ github.event.number }}"',
           ].join("\n"),
         },
         {
