@@ -31,12 +31,7 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Set CDK Application Stage
         id: stage
-        run: |-
-          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
-            echo ::set-output name=stage::"prod"
-          else
-            echo ::set-output name=stage::"pr-${{ github.event.number }}"
-          fi
+        run: echo ::set-output name=stage::"pr-${{ github.event.number }}"
       - name: Destroy
         run: |-
           npx projen destroy \
