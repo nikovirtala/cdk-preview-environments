@@ -28,7 +28,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   mergify: true,
   pullRequestTemplate: false,
   defaultReleaseBranch: "main",
-  typescriptVersion: "5.5.4",
+  typescriptVersion: "5.7.2",
   projenrcTs: true,
   minNodeVersion: "22.12.0",
   github: true,
