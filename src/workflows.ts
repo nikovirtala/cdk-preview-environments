@@ -170,11 +170,13 @@ export class DestroyWorkflow extends Component {
           ].join("\n"),
         },
         {
-          name: "Delete GitHub Deployment and Environment",
-          uses: "strumwolf/delete-deployment-environment@v3",
+          name: "Deactivate GitHub Deployment",
+          uses: "bobheadxi/deployments@v1",
           with: {
+            step: "deactivate-env",
             token: "${{ secrets.GITHUB_TOKEN }}",
-            environment: "${{ steps.stage.outputs.stage }}",
+            env: "${{ steps.stage.outputs.stage }}",
+            desc: "environment deactivated after destroy",
           },
         },
       ],
