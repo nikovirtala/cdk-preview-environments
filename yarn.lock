@@ -26,9 +26,9 @@
   integrity sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==
 
 "@aws-cdk/cloud-assembly-schema@^39.0.1":
-  version "39.1.46"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-39.1.46.tgz#616c06c111a8586b7f9fc91b3e71731956e2f003"
-  integrity sha512-ChqTG6IZX7ya2VYYhM4BkhWXPa+xp3XyfE0++Gt4C5yZnRqVgL4NFjuwVCHwzGup5YHyYLjCXasfJ0hrvwmTzA==
+  version "39.1.47"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-39.1.47.tgz#5801a406837efa43e74b8444556c04339cec4a00"
+  integrity sha512-gn0eqDJYQu/StmvWXoy3QOYOu9tUMYnoViBqgc9cuAXwkRxD4l1TBsOpN2qPzPEXlrfRjJJ5GRh4wI2s/n0Z7g==
   dependencies:
     jsonschema "~1.4.1"
     semver "^7.6.3"
@@ -328,9 +328,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@^22":
-  version "22.10.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.6.tgz#5c6795e71635876039f853cbccd59f523d9e4239"
-  integrity sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==
+  version "22.10.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.7.tgz#14a1ca33fd0ebdd9d63593ed8d3fbc882a6d28d7"
+  integrity sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==
   dependencies:
     undici-types "~6.20.0"
 
