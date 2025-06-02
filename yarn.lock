@@ -2106,10 +2106,10 @@ prettier@^2.8.8:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-projen@^0.92.8:
-  version "0.92.8"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.92.8.tgz#fff22124633f2ad65628e7c62dd15937df059213"
-  integrity sha512-1TcFU3Sf/7s23eR+ZXJQZa6aoGQe5Y0vzx9nVBlGbBcjtXb+GW2FyU6ww4VaW/tSxM7krmnzYakR3rxZvHUCIw==
+projen@^0.92.9:
+  version "0.92.9"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.92.9.tgz#36c5640b651e519dddc0b6522f682f4444e903bc"
+  integrity sha512-bagWBR8FSaQqBAVQdJufDo2y2tNfOdWRLNOacGV9Ow1PtxCQdtNWEnv3du3Vjp61x7c9iN/zd/XO7QJXRtA3xw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
