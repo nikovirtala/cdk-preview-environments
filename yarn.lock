@@ -21,9 +21,9 @@
   integrity sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==
 
 "@aws-cdk/cloud-assembly-schema@^48.6.0":
-  version "48.15.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-48.15.0.tgz#80a146dbd39dc2092c7512ea0ef25ece47f9cfeb"
-  integrity sha512-hHs3Z5Nh0tUxHjk6myEv5mHqLuHnDcZlM19c01g1W75O24oBOiZjssRGIz/T0QOpxcY0Zu6mFrFCdwDWbZrc6A==
+  version "48.16.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-48.16.0.tgz#7680b690ec9fd45ff2b2384a912b2d462f9577f9"
+  integrity sha512-JjNAJ4FX78c/xPFoqA4uJUIJgMpNxKbU+Jvrp1SBBY41Er8rdLdP9VhJ+BqEP4eO6Y12HZmb2ebnxIALMFNE7Q==
   dependencies:
     jsonschema "~1.4.1"
     semver "^7.7.2"
@@ -171,9 +171,9 @@
     eslint-visitor-keys "^3.4.3"
 
 "@eslint-community/regexpp@^4.10.0", "@eslint-community/regexpp@^4.12.1":
-  version "4.12.1"
-  resolved "https://registry.yarnpkg.com/@eslint-community/regexpp/-/regexpp-4.12.1.tgz#cfc6cffe39df390a3841cde2abccf92eaa7ae0e0"
-  integrity sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==
+  version "4.12.2"
+  resolved "https://registry.yarnpkg.com/@eslint-community/regexpp/-/regexpp-4.12.2.tgz#bccdf615bcf7b6e8db830ec0b8d21c9a25de597b"
+  integrity sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==
 
 "@eslint/config-array@^0.21.1":
   version "0.21.1"
@@ -624,9 +624,9 @@ aws-cdk-lib@^2.173.4:
     yaml "1.10.2"
 
 aws-cdk@^2:
-  version "2.1030.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1030.0.tgz#6eb9b9f91f79bb93377c135c7b8cc7f10cdb96a0"
-  integrity sha512-jYgOy1Hqx8cOTWW9On9xpypXLecjOqSZ4X2q5U0Gzd14xI+HLmpaRJV5ILJ8vYrLKVbqjhiog0pdxAC7vwF9uQ==
+  version "2.1031.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1031.0.tgz#2e7b7ffbfd51693a023ff1a134fe0c2c5a176455"
+  integrity sha512-iotbdOIvHoLCz1u7PUVDQbcpGpVqMk8HzAeOP4PGRqD9PoAEsCb3mwGTxHMrNGEGWdJXQxiTOGSaMmlwEvACxA==
   optionalDependencies:
     fsevents "2.3.2"
 
