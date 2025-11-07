@@ -21,9 +21,9 @@
   integrity sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==
 
 "@aws-cdk/cloud-assembly-schema@^48.6.0":
-  version "48.17.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-48.17.0.tgz#7c9582925993895f6ddf3d7757f90e6d02613d06"
-  integrity sha512-k1nNmluSq3Pf7N6ljgVRw2wyZLbdODCSszN+UdvXMIC8jnU08ak5DSjioLhGUSPP+yjZzuxMnS27kY9DqydRjA==
+  version "48.18.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-48.18.0.tgz#88c569150a5a6944d51e8cec9883008c02da43fb"
+  integrity sha512-KJHmkji59QboUIytK/imIY/ajt/r7OOXdyvZz25e0jssreyyxx9HUswZpcB0BM/9ZkVI7IdzYlotWe6opXdapg==
   dependencies:
     jsonschema "~1.4.1"
     semver "^7.7.2"
@@ -624,9 +624,9 @@ aws-cdk-lib@^2.173.4:
     yaml "1.10.2"
 
 aws-cdk@^2:
-  version "2.1031.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1031.1.tgz#0d9d73d85914d21e981f47027bb5c2f75be5af7c"
-  integrity sha512-y/ovZDtOKvgJFtwE7NDFKRgJB3stgUUrAu6b31icuFO8+vnZ+4BIt0McQfbVR8ky5QOj2TW1G1sk55k8Yv+BnQ==
+  version "2.1031.2"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1031.2.tgz#b206e6630011b537b500dc553c93e032d6f52730"
+  integrity sha512-FI8XkslwC1Vatjdu5MXu2ww++FcZPkPt45/DJklApxMF+aGcCKOuLf+COc12QYK88GOrLBeCED6lDjNc9m/ueA==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -744,9 +744,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@^10.0.0, constructs@^10.0.5:
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.4.2.tgz#e875a78bef932cca12ea63965969873a25c1c132"
-  integrity sha512-wsNxBlAott2qg8Zv87q3eYZYgheb9lchtBfjHzzLHtXbttwSrHPs1NNQbBrmbb1YZvYg2+Vh0Dor76w4mFxJkA==
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.4.3.tgz#605f418f8cf8b4d18e06de05c9be7fb79e82d802"
+  integrity sha512-3+ZB67qWGM1vEstNpj6pGaLNN1qz4gxC1CBhEUhZDZk0PqzQWY65IzC1Doq17MGPa9xa2wJ1G/DJ3swU8kWAHQ==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2099,10 +2099,10 @@ prettier@^2.8.8:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-projen@^0.98.7:
-  version "0.98.7"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.98.7.tgz#88ec8cc566cc7aa1b182afce094b72b0e7f6ea35"
-  integrity sha512-Zp2uc7hOzqRwAtXEDSLZ1FV/GHr9xtkYbHqMymSzXuSWeTtWKG5MuC9jJS5RegeIpTkEqVUYO5R+FcXe0fA9tQ==
+projen@^0.98.8:
+  version "0.98.8"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.98.8.tgz#45fbad19ddff603c1b047e426188491d56a5e77a"
+  integrity sha512-tYhB03KGlntr4weoclvp6uJceaPjT3zasAOvugPF/GS57goW9qUUzqO42WeKkGyHaDy9/Jq0FI/NL8zg/j9Lcw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
