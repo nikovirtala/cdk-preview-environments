@@ -839,9 +839,9 @@ define-properties@^1.2.1:
     object-keys "^1.1.1"
 
 diff@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
-  integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.4.tgz#7a6dbfda325f25f07517e9b518f897c08332e07d"
+  integrity sha512-X07nttJQkwkfKfvTPG/KSnE2OMdcUCao6+eXF3wmnIQRn2aPAHH3VxDbDOdegkd6JbPsXqShpvEOHfAT+nCNwQ==
 
 doctrine@^2.1.0:
   version "2.1.0"
@@ -2087,10 +2087,10 @@ prettier@^2.8.8:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-projen@^0.99.3:
-  version "0.99.3"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.99.3.tgz#f9ae15bc49efd07994053b09ee12c7a6dc8ad18c"
-  integrity sha512-/yqcZMOex4ALwfm36f5VwbT9Fi5ocluxJaqeRNvM+7tw7sSlXhxgHk4FPYBsB0g5lwfupCZf3ueqv3t9P4FI5A==
+projen@^0.99.4:
+  version "0.99.4"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.99.4.tgz#7e2bbd161c07c013e870000078b8c4660ca44c52"
+  integrity sha512-v0s2ZETSj8nXKswi59lWsqcoX0wLvJzkgCjVytgStGD+ZYWmaC0ndBzx8r88wEb82zDE9/t56Mfy/eEs1Dr6iA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
