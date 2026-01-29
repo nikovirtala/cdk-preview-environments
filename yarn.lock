@@ -615,9 +615,9 @@ aws-cdk-lib@^2.173.4:
     yaml "1.10.2"
 
 aws-cdk@^2:
-  version "2.1103.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1103.0.tgz#6f7d331920faae4c03e348cb6a48bac47de3bfe0"
-  integrity sha512-bxEcqIeAT983x7525gf4Ya4zgpDt3Ou54El7j1ITCa/KqJ8ZaOP4F0ZHiiGuCbZduMcGJlszIXkaPJuvyNADgg==
+  version "2.1104.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1104.0.tgz#ec177d6437698362eebe82bc4b318d85c5a22482"
+  integrity sha512-TGIK2Mpfqi0BA6Np9aJz0d5HAvTxWd17FrwtXlJuwqdQbR9R/IRqsabF6xRAuhFTz7/YrrHHU9H4VK/Xfnh7Vg==
 
 balanced-match@^1.0.0:
   version "1.0.2"
