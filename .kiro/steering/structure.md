@@ -27,7 +27,7 @@
 
 ### Configuration
 
-- **.projenrc.ts** - Single source of truth for project configuration. Modify this file and run `npx projen` to update generated files.
+- **.projenrc.ts** - Single source of truth for project configuration. Modify this file and run `pnpm exec projen` to update generated files.
 - **cdk.json** - CDK app configuration. Specifies the app entry point and synthesis settings.
 
 ## Architecture Patterns
@@ -56,5 +56,5 @@ GitHub Actions workflows are defined as Projen components in `src/workflows.ts`:
 
 - All AWS resources deployed in `eu-west-1` region
 - Stage naming: `prod` for main branch, `pr-{number}` for pull requests
-- Use Yarn with `--frozen-lockfile` for reproducible installs
+- Use pnpm with `--frozen-lockfile` for reproducible installs
 - GitHub Deployments API integration for deployment tracking

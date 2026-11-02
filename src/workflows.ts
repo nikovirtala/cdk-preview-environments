@@ -31,6 +31,13 @@ export class DeploymentWorkflow extends Component {
           uses: "actions/checkout@v4",
         },
         {
+          name: "Setup pnpm",
+          uses: "pnpm/action-setup@v6.0.10",
+          with: {
+            version: project.package.pnpmVersion,
+          },
+        },
+        {
           name: "Setup Node.js",
           uses: "actions/setup-node@v4",
           with: {
@@ -48,7 +55,7 @@ export class DeploymentWorkflow extends Component {
         },
         {
           name: "Install Dependencies",
-          run: "yarn --frozen-lockfile",
+          run: "pnpm install --frozen-lockfile",
         },
         {
           name: "Set CDK Application Stage",
@@ -74,13 +81,13 @@ export class DeploymentWorkflow extends Component {
         },
         {
           name: "Diff?",
-          run: "npx cdk diff --context stage=${{ steps.stage.outputs.stage }}",
+          run: "pnpm exec cdk diff --context stage=${{ steps.stage.outputs.stage }}",
         },
         {
           name: "Deploy!",
           id: "deploy",
           run: [
-            "npx projen deploy \\",
+            "pnpm exec projen deploy \\",
             "  --require-approval never \\",
             "  --outputs-file outputs.json \\",
             "  --context stage=${{ steps.stage.outputs.stage }} &&",
@@ -135,6 +142,13 @@ export class DestroyWorkflow extends Component {
           uses: "actions/checkout@v4",
         },
         {
+          name: "Setup pnpm",
+          uses: "pnpm/action-setup@v6.0.10",
+          with: {
+            version: project.package.pnpmVersion,
+          },
+        },
+        {
           name: "Setup Node.js",
           uses: "actions/setup-node@v4",
           with: {
@@ -152,7 +166,7 @@ export class DestroyWorkflow extends Component {
         },
         {
           name: "Install Dependencies",
-          run: "yarn --frozen-lockfile",
+          run: "pnpm install --frozen-lockfile",
         },
         {
           name: "Set CDK Application Stage",
@@ -164,7 +178,7 @@ export class DestroyWorkflow extends Component {
         {
           name: "Destroy",
           run: [
-            "npx projen destroy \\",
+            "pnpm exec projen destroy \\",
             "  --context stage=${{ steps.stage.outputs.stage }} \\",
             "  --force",
           ].join("\n"),
@@ -211,6 +225,13 @@ export class LintWorkflow extends Component {
           uses: "actions/checkout@v4",
         },
         {
+          name: "Setup pnpm",
+          uses: "pnpm/action-setup@v6.0.10",
+          with: {
+            version: project.package.pnpmVersion,
+          },
+        },
+        {
           name: "Setup Node.js",
           uses: "actions/setup-node@v4",
           with: {
@@ -219,7 +240,7 @@ export class LintWorkflow extends Component {
         },
         {
           name: "Install Dependencies",
-          run: "yarn --frozen-lockfile",
+          run: "pnpm install --frozen-lockfile",
         },
         {
           name: "Set CDK Application Stage",
@@ -234,7 +255,7 @@ export class LintWorkflow extends Component {
         },
         {
           name: "Synth",
-          run: "npx cdk synth --context stage=${{ steps.stage.outputs.stage }}",
+          run: "pnpm exec cdk synth --context stage=${{ steps.stage.outputs.stage }}",
         },
         {
           name: "Lint",

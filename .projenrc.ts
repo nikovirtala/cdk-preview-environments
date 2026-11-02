@@ -1,48 +1,22 @@
-import { awscdk } from "projen";
+import { AwsCdkTypeScriptAppProject } from "@nikovirtala/projen-constructs";
 import {
   DeploymentWorkflow,
   DestroyWorkflow,
   LintWorkflow,
-} from "./src/workflows";
+} from "./src/workflows.ts";
 
-const project = new awscdk.AwsCdkTypeScriptApp({
-  autoApproveOptions: {
-    allowedUsernames: ["nikovirtala"],
-    secret: "GITHUB_TOKEN",
-  },
+const project = new AwsCdkTypeScriptAppProject({
   authorEmail: "niko.virtala@hey.com",
   authorName: "Niko Virtala",
-  buildWorkflow: true,
   cdkVersion: "2.173.4",
-  codeCov: false,
   defaultReleaseBranch: "main",
   deps: ["@aws-cdk-containers/ecs-service-extensions@^2"],
-  depsUpgradeOptions: {
-    workflowOptions: {
-      labels: ["auto-approve", "auto-merge"],
-    },
-  },
-  devDeps: ["prettier"],
-  eslint: true,
-  github: true,
-  jest: false,
+  devDeps: ["@nikovirtala/projen-constructs"],
   license: "MIT",
   licensed: true,
-  mergify: true,
-  minNodeVersion: "22.12.0",
   name: "cdk-preview-environments",
-  prettier: true,
-  projenrcTs: true,
   pullRequestTemplate: false,
   repository: "https://github.com/nikovirtala/cdk-preview-environments.git",
-  typescriptVersion: "5.7.2",
-});
-
-project.eslint?.addOverride({
-  files: ["*"],
-  rules: {
-    "import/no-extraneous-dependencies": ["warn"],
-  },
 });
 
 new DeploymentWorkflow(project);
