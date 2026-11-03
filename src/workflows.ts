@@ -1,6 +1,9 @@
-import { type awscdk, Component } from "projen";
-import { GithubWorkflow } from "projen/lib/github";
-import { JobPermission } from "projen/lib/github/workflows-model";
+import { type awscdk, Component, github } from "projen";
+
+/* Import from the package root: Node.js's native TypeScript support (ES modules) can't resolve
+ * projen's "projen/lib/..." subpaths, which have no file extension or point at directories. */
+const { GithubWorkflow } = github;
+const { JobPermission } = github.workflows;
 
 export class DeploymentWorkflow extends Component {
     constructor(project: awscdk.AwsCdkTypeScriptApp) {
